@@ -1,0 +1,33 @@
+d:\documents\visual studio 2015\Projects\ShoeMarket\BE\bin\Debug\BE.dll
+d:\documents\visual studio 2015\Projects\ShoeMarket\BE\bin\Debug\BE.pdb
+d:\documents\visual studio 2015\Projects\ShoeMarket\BE\obj\Debug\BE.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2015\Projects\ShoeMarket\BE\obj\Debug\BE.dll
+d:\documents\visual studio 2015\Projects\ShoeMarket\BE\obj\Debug\BE.pdb
+C:\Users\navegador\Desktop\ShoeMarket\BE\obj\Debug\BE.csprojResolveAssemblyReference.cache
+C:\Users\navegador\Desktop\ShoeMarket\BE\obj\Debug\BE.dll
+C:\Users\navegador\Desktop\ShoeMarket\BE\obj\Debug\BE.pdb
+C:\Users\navegador\Desktop\ShoeMarket\BE\bin\Debug\BE.dll
+C:\Users\navegador\Desktop\ShoeMarket\BE\bin\Debug\BE.pdb
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V3\lala new\BE\obj\Debug\BE.csprojAssemblyReference.cache
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V3\lala new\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V3\lala new\BE\obj\Debug\BE.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V3\lala new\BE\obj\Debug\BE.pdb
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V3\lala new\BE\bin\Debug\BE.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V3\lala new\BE\bin\Debug\BE.pdb
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\BE\bin\Debug\BE.dll
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\BE\bin\Debug\BE.pdb
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\BE\obj\Debug\BE.dll
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\BE\obj\Debug\BE.pdb
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\BE\bin\Debug\BE.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\BE\bin\Debug\BE.pdb
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\BE\obj\Debug\BE.csprojAssemblyReference.cache
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\BE\obj\Debug\BE.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\BE\obj\Debug\BE.pdb
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BE\bin\Debug\BE.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BE\bin\Debug\BE.pdb
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BE\obj\Debug\BE.csprojAssemblyReference.cache
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BE\obj\Debug\BE.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BE\obj\Debug\BE.pdb

@@ -1,0 +1,46 @@
+d:\documents\visual studio 2015\Projects\ShoeMarket\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2015\Projects\ShoeMarket\DAL\bin\Debug\DAL.dll
+d:\documents\visual studio 2015\Projects\ShoeMarket\DAL\bin\Debug\DAL.pdb
+d:\documents\visual studio 2015\Projects\ShoeMarket\DAL\obj\Debug\DAL.dll
+d:\documents\visual studio 2015\Projects\ShoeMarket\DAL\obj\Debug\DAL.pdb
+C:\Users\navegador\Desktop\ShoeMarket\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\navegador\Desktop\ShoeMarket\DAL\obj\Debug\DAL.dll
+C:\Users\navegador\Desktop\ShoeMarket\DAL\obj\Debug\DAL.pdb
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V3\lala new\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V3\lala new\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\DAL\bin\Debug\DAL.dll
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\DAL\bin\Debug\DAL.pdb
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\DAL\bin\Debug\BE.dll
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\DAL\bin\Debug\BE.pdb
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\DAL\obj\Debug\DAL.dll
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\DAL\obj\Debug\DAL.pdb
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\DAL\bin\Debug\DAL.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\DAL\bin\Debug\DAL.pdb
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\DAL\bin\Debug\BE.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\DAL\bin\Debug\BE.pdb
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\DAL\obj\Debug\DAL.csproj.CopyComplete
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\DAL\obj\Debug\DAL.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\DAL\obj\Debug\DAL.pdb
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\DAL\bin\Debug\DAL.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\DAL\bin\Debug\DAL.pdb
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\DAL\bin\Debug\BE.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\DAL\bin\Debug\BE.pdb
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\DAL\obj\Debug\DAL.csproj.CopyComplete
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\DAL\obj\Debug\DAL.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\DAL\obj\Debug\DAL.pdb
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\DAL\obj\Debug\DAL.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\DAL\obj\Debug\DAL.pdb
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\DAL\bin\Debug\DAL.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\DAL\bin\Debug\DAL.pdb
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\DAL\bin\Debug\BE.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\DAL\bin\Debug\BE.pdb
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\DAL\obj\Debug\DAL.csproj.CopyComplete

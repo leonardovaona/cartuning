@@ -1,0 +1,54 @@
+d:\documents\visual studio 2015\Projects\ShoeMarket\BLL\bin\Debug\BLL.dll
+d:\documents\visual studio 2015\Projects\ShoeMarket\BLL\bin\Debug\BLL.pdb
+d:\documents\visual studio 2015\Projects\ShoeMarket\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2015\Projects\ShoeMarket\BLL\obj\Debug\BLL.dll
+d:\documents\visual studio 2015\Projects\ShoeMarket\BLL\obj\Debug\BLL.pdb
+C:\Users\navegador\Desktop\ShoeMarket\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\navegador\Desktop\ShoeMarket\BLL\obj\Debug\BLL.dll
+C:\Users\navegador\Desktop\ShoeMarket\BLL\obj\Debug\BLL.pdb
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V3\lala new\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V3\lala new\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\BLL\bin\Debug\BLL.dll
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\BLL\bin\Debug\BLL.pdb
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\BLL\bin\Debug\BE.dll
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\BLL\bin\Debug\DAL.dll
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\BLL\bin\Debug\BE.pdb
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\BLL\bin\Debug\DAL.pdb
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\BLL\obj\Debug\BLL.dll
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\BLL\obj\Debug\BLL.pdb
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\BLL\bin\Debug\BLL.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\BLL\bin\Debug\BLL.pdb
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\BLL\bin\Debug\BE.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\BLL\bin\Debug\DAL.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\BLL\bin\Debug\BE.pdb
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\BLL\bin\Debug\DAL.pdb
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\BLL\obj\Debug\BLL.csproj.CopyComplete
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\BLL\obj\Debug\BLL.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\BLL\obj\Debug\BLL.pdb
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\BLL\obj\Debug\BLL.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\BLL\obj\Debug\BLL.pdb
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\BLL\bin\Debug\BLL.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\BLL\bin\Debug\BLL.pdb
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\BLL\bin\Debug\BE.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\BLL\bin\Debug\DAL.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\BLL\bin\Debug\BE.pdb
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\BLL\bin\Debug\DAL.pdb
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BLL\obj\Debug\BLL.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BLL\obj\Debug\BLL.pdb
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BLL\bin\Debug\BLL.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BLL\bin\Debug\BLL.pdb
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BLL\bin\Debug\BE.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BLL\bin\Debug\DAL.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BLL\bin\Debug\BE.pdb
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BLL\bin\Debug\DAL.pdb
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BLL\obj\Debug\BLL.csproj.CopyComplete

@@ -1,0 +1,303 @@
+d:\documents\visual studio 2015\Projects\ShoeMarket\ShoeMarket\bin\ApplicationInsights.config
+d:\documents\visual studio 2015\Projects\ShoeMarket\ShoeMarket\bin\roslyn\csc.exe
+d:\documents\visual studio 2015\Projects\ShoeMarket\ShoeMarket\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+d:\documents\visual studio 2015\Projects\ShoeMarket\ShoeMarket\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+d:\documents\visual studio 2015\Projects\ShoeMarket\ShoeMarket\bin\roslyn\Microsoft.CodeAnalysis.dll
+d:\documents\visual studio 2015\Projects\ShoeMarket\ShoeMarket\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+d:\documents\visual studio 2015\Projects\ShoeMarket\ShoeMarket\bin\roslyn\Microsoft.CSharp.Core.targets
+d:\documents\visual studio 2015\Projects\ShoeMarket\ShoeMarket\bin\roslyn\Microsoft.VisualBasic.Core.targets
+d:\documents\visual studio 2015\Projects\ShoeMarket\ShoeMarket\bin\roslyn\System.Collections.Immutable.dll
+d:\documents\visual studio 2015\Projects\ShoeMarket\ShoeMarket\bin\roslyn\System.Reflection.Metadata.dll
+d:\documents\visual studio 2015\Projects\ShoeMarket\ShoeMarket\bin\roslyn\vbc.exe
+d:\documents\visual studio 2015\Projects\ShoeMarket\ShoeMarket\bin\roslyn\VBCSCompiler.exe
+d:\documents\visual studio 2015\Projects\ShoeMarket\ShoeMarket\bin\roslyn\VBCSCompiler.exe.config
+d:\documents\visual studio 2015\Projects\ShoeMarket\ShoeMarket\bin\ShoeMarket.dll.config
+d:\documents\visual studio 2015\Projects\ShoeMarket\ShoeMarket\bin\ShoeMarket.dll
+d:\documents\visual studio 2015\Projects\ShoeMarket\ShoeMarket\bin\ShoeMarket.pdb
+d:\documents\visual studio 2015\Projects\ShoeMarket\ShoeMarket\bin\Microsoft.AI.Agent.Intercept.dll
+d:\documents\visual studio 2015\Projects\ShoeMarket\ShoeMarket\bin\Microsoft.AI.DependencyCollector.dll
+d:\documents\visual studio 2015\Projects\ShoeMarket\ShoeMarket\bin\Microsoft.AI.PerfCounterCollector.dll
+d:\documents\visual studio 2015\Projects\ShoeMarket\ShoeMarket\bin\Microsoft.AI.ServerTelemetryChannel.dll
+d:\documents\visual studio 2015\Projects\ShoeMarket\ShoeMarket\bin\Microsoft.AI.Web.dll
+d:\documents\visual studio 2015\Projects\ShoeMarket\ShoeMarket\bin\Microsoft.AI.WindowsServer.dll
+d:\documents\visual studio 2015\Projects\ShoeMarket\ShoeMarket\bin\Microsoft.ApplicationInsights.dll
+d:\documents\visual studio 2015\Projects\ShoeMarket\ShoeMarket\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+d:\documents\visual studio 2015\Projects\ShoeMarket\ShoeMarket\bin\Microsoft.AI.DependencyCollector.xml
+d:\documents\visual studio 2015\Projects\ShoeMarket\ShoeMarket\bin\Microsoft.AI.ServerTelemetryChannel.xml
+d:\documents\visual studio 2015\Projects\ShoeMarket\ShoeMarket\bin\Microsoft.AI.Web.xml
+d:\documents\visual studio 2015\Projects\ShoeMarket\ShoeMarket\bin\Microsoft.AI.WindowsServer.xml
+d:\documents\visual studio 2015\Projects\ShoeMarket\ShoeMarket\bin\Microsoft.ApplicationInsights.xml
+d:\documents\visual studio 2015\Projects\ShoeMarket\ShoeMarket\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+d:\documents\visual studio 2015\Projects\ShoeMarket\ShoeMarket\obj\Debug\ShoeMarket.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2015\Projects\ShoeMarket\ShoeMarket\obj\Debug\ShoeMarket.dll
+d:\documents\visual studio 2015\Projects\ShoeMarket\ShoeMarket\obj\Debug\ShoeMarket.pdb
+C:\Users\navegador\Desktop\ShoeMarket\ShoeMarket\bin\ApplicationInsights.config
+C:\Users\navegador\Desktop\ShoeMarket\ShoeMarket\bin\roslyn\csc.exe
+C:\Users\navegador\Desktop\ShoeMarket\ShoeMarket\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\navegador\Desktop\ShoeMarket\ShoeMarket\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\navegador\Desktop\ShoeMarket\ShoeMarket\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\navegador\Desktop\ShoeMarket\ShoeMarket\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\navegador\Desktop\ShoeMarket\ShoeMarket\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\navegador\Desktop\ShoeMarket\ShoeMarket\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\navegador\Desktop\ShoeMarket\ShoeMarket\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\navegador\Desktop\ShoeMarket\ShoeMarket\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\navegador\Desktop\ShoeMarket\ShoeMarket\bin\roslyn\vbc.exe
+C:\Users\navegador\Desktop\ShoeMarket\ShoeMarket\bin\roslyn\VBCSCompiler.exe
+C:\Users\navegador\Desktop\ShoeMarket\ShoeMarket\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\navegador\Desktop\ShoeMarket\ShoeMarket\bin\ShoeMarket.dll.config
+C:\Users\navegador\Desktop\ShoeMarket\ShoeMarket\bin\ShoeMarket.dll
+C:\Users\navegador\Desktop\ShoeMarket\ShoeMarket\bin\ShoeMarket.pdb
+C:\Users\navegador\Desktop\ShoeMarket\ShoeMarket\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\navegador\Desktop\ShoeMarket\ShoeMarket\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\navegador\Desktop\ShoeMarket\ShoeMarket\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\navegador\Desktop\ShoeMarket\ShoeMarket\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\navegador\Desktop\ShoeMarket\ShoeMarket\bin\Microsoft.AI.Web.dll
+C:\Users\navegador\Desktop\ShoeMarket\ShoeMarket\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\navegador\Desktop\ShoeMarket\ShoeMarket\bin\Microsoft.ApplicationInsights.dll
+C:\Users\navegador\Desktop\ShoeMarket\ShoeMarket\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\navegador\Desktop\ShoeMarket\ShoeMarket\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\navegador\Desktop\ShoeMarket\ShoeMarket\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\navegador\Desktop\ShoeMarket\ShoeMarket\bin\Microsoft.AI.Web.xml
+C:\Users\navegador\Desktop\ShoeMarket\ShoeMarket\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\navegador\Desktop\ShoeMarket\ShoeMarket\bin\Microsoft.ApplicationInsights.xml
+C:\Users\navegador\Desktop\ShoeMarket\ShoeMarket\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\navegador\Desktop\ShoeMarket\ShoeMarket\obj\Debug\ShoeMarket.csprojResolveAssemblyReference.cache
+C:\Users\navegador\Desktop\ShoeMarket\ShoeMarket\obj\Debug\ShoeMarket.dll
+C:\Users\navegador\Desktop\ShoeMarket\ShoeMarket\obj\Debug\ShoeMarket.pdb
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V3\lala new\ShoeMarket\obj\Debug\ShoeMarket.csprojAssemblyReference.cache
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V3\lala new\ShoeMarket\obj\Debug\ShoeMarket.csproj.CoreCompileInputs.cache
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V3\lala new\ShoeMarket\obj\Debug\ShoeMarket.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V3\lala new\ShoeMarket\obj\Debug\ShoeMarket.pdb
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\ApplicationInsights.config
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\roslyn\csc.exe
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\roslyn\vbc.exe
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\roslyn\VBCSCompiler.exe
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\ShoeMarket.dll.config
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\ShoeMarket.dll
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\ShoeMarket.pdb
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\BE.dll
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\BLL.dll
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.Web.dll
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\System.Web.Http.dll
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\DAL.dll
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\System.Net.Http.Formatting.dll
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\Newtonsoft.Json.dll
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\BE.pdb
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\BLL.pdb
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.Web.xml
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\System.Web.Http.xml
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\DAL.pdb
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\System.Net.Http.Formatting.xml
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\es\System.Web.Http.resources.dll
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\obj\Debug\ShoeMarket.csprojAssemblyReference.cache
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\obj\Debug\ShoeMarket.csproj.CoreCompileInputs.cache
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\obj\Debug\ShoeMarket.csproj.CopyComplete
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\obj\Debug\ShoeMarket.dll
+C:\Users\Campo\Documents\Visual Studio 2017\Proyects\TheShoeMarket\ShoeMarket\obj\Debug\ShoeMarket.pdb
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\ApplicationInsights.config
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\roslyn\csc.exe
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\roslyn\System.Collections.Immutable.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\roslyn\System.Reflection.Metadata.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\roslyn\vbc.exe
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\roslyn\VBCSCompiler.exe
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\roslyn\VBCSCompiler.exe.config
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\ShoeMarket.dll.config
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\ShoeMarket.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\ShoeMarket.pdb
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\BE.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\BLL.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.DependencyCollector.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.Web.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.WindowsServer.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\Microsoft.ApplicationInsights.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\System.Web.Http.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\DAL.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\System.Net.Http.Formatting.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\Newtonsoft.Json.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\BE.pdb
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\BLL.pdb
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.DependencyCollector.xml
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.Web.xml
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.WindowsServer.xml
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\Microsoft.ApplicationInsights.xml
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\System.Web.Http.xml
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\DAL.pdb
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\bin\System.Net.Http.Formatting.xml
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\obj\Debug\ShoeMarket.csprojAssemblyReference.cache
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\obj\Debug\ShoeMarket.csproj.CoreCompileInputs.cache
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\obj\Debug\ShoeMarket.csproj.CopyComplete
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\obj\Debug\ShoeMarket.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V5\TheShoeMarket\ShoeMarket\obj\Debug\ShoeMarket.pdb
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\ApplicationInsights.config
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\roslyn\csc.exe
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\roslyn\vbc.exe
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\roslyn\VBCSCompiler.exe
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\ShoeMarket.dll.config
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\ShoeMarket.dll
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\ShoeMarket.pdb
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\BE.dll
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\BLL.dll
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.Web.dll
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\Microsoft.ApplicationInsights.dll
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\System.Web.Http.dll
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\DAL.dll
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\System.Net.Http.Formatting.dll
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\Newtonsoft.Json.dll
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\BE.pdb
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\BLL.pdb
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.Web.xml
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\Microsoft.ApplicationInsights.xml
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\System.Web.Http.xml
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\DAL.pdb
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\bin\System.Net.Http.Formatting.xml
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\obj\Debug\ShoeMarket.csprojAssemblyReference.cache
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\obj\Debug\ShoeMarket.csproj.CoreCompileInputs.cache
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\obj\Debug\ShoeMarket.csproj.CopyComplete
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\obj\Debug\ShoeMarket.dll
+C:\Users\lefuschetto\Desktop\the shoe market\Version 6\TheShoeMarket\ShoeMarket\obj\Debug\ShoeMarket.pdb
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\ApplicationInsights.config
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\roslyn\csc.exe
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\roslyn\System.Collections.Immutable.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\roslyn\System.Reflection.Metadata.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\roslyn\vbc.exe
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\roslyn\VBCSCompiler.exe
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\roslyn\VBCSCompiler.exe.config
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\ShoeMarket.dll.config
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\ShoeMarket.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\ShoeMarket.pdb
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\BE.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\BLL.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.DependencyCollector.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.Web.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.WindowsServer.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\Microsoft.ApplicationInsights.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\System.Web.Http.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\DAL.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\System.Net.Http.Formatting.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\Newtonsoft.Json.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\BE.pdb
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\BLL.pdb
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.DependencyCollector.xml
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.Web.xml
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\Microsoft.AI.WindowsServer.xml
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\Microsoft.ApplicationInsights.xml
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\System.Web.Http.xml
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\DAL.pdb
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\bin\System.Net.Http.Formatting.xml
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\obj\Debug\ShoeMarket.csprojAssemblyReference.cache
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\obj\Debug\ShoeMarket.csproj.CoreCompileInputs.cache
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\obj\Debug\ShoeMarket.csproj.CopyComplete
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\obj\Debug\ShoeMarket.dll
+E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\ShoeMarket\obj\Debug\ShoeMarket.pdb
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\ApplicationInsights.config
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\roslyn\csc.exe
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\roslyn\vbc.exe
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\roslyn\VBCSCompiler.exe
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\ShoeMarket.dll.config
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\ShoeMarket.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\ShoeMarket.pdb
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\BE.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\BLL.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\Microsoft.AI.Web.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\DAL.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\System.Net.Http.Formatting.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\Newtonsoft.Json.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\BE.pdb
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\BLL.pdb
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\Microsoft.AI.Web.xml
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\System.Web.Http.xml
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\DAL.pdb
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\System.Net.Http.Formatting.xml
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\es\System.Web.Http.resources.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\obj\Debug\ShoeMarket.csprojAssemblyReference.cache
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\obj\Debug\ShoeMarket.csproj.CoreCompileInputs.cache
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\obj\Debug\ShoeMarket.csproj.CopyComplete
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\obj\Debug\ShoeMarket.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\obj\Debug\ShoeMarket.pdb

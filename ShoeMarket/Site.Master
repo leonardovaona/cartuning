@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="ShoeMarket.Site" %>
+
+<!DOCTYPE html>
+<head runat="server">
+    <meta charset="UTF-8"/>
+    <title></title>
+    <link href="~/css/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/estilos.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server"></asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form runat="server">
+        <header style="background-color: lightblue;">
+            <h1 class="logo"><a href="~/Home.aspx" ID="A1" runat="server"><img src="img/logo.png" style="width: 33%;" /></a></h1>
+            <ul class="contact-data">
+                <li><strong>Telefono: </strong>15-4097-1234</li>
+                <li><strong>Consultas: </strong>ventas@cartuning.com</li>
+            </ul>
+            <div class="user-login">
+                <a href="~/Login.aspx" ID="HeadLoginStatus" runat="server">Iniciar sesión</a>
+                <a href="~/CrearUsuario.aspx" id="HeadCrearUsuario" runat ="server">Registrarse</a>
+            </div>
+
+            <div class="clear"></div>
+        </header>
+
+        <div class="clear menu-container">
+            <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                <Items>
+<%--                    <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Inicio"/>
+                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="Nosotros"/>--%>
+                </Items>
+            </asp:Menu>
+        </div>
+
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+            <div class="clear"></div>
+        </div>
+    </form>
+</body>
