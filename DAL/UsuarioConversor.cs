@@ -27,8 +27,9 @@ public class UsuarioConversor : IConversor<BE.UsuarioBE>
         usuario.Clave = Convert.ToString(row["Clave"]);
         usuario.DNI = Convert.ToString(row["DNI"]);
         usuario.Email = Convert.ToString(row["Email"]);
+        usuario.idioma = Convert.ToInt32(row["id_idioma"]);
         usuario.Bloqueado = Convert.ToInt16(row["Bloqueado"]);
-        usuario.Eliminado = Convert.ToBoolean(row["Eliminado"]);
+        usuario.Eliminado = Convert.ToInt16(row["Eliminado"]);
         usuario.DVH = Convert.ToInt32(row["DVH"]);
         // obtener el perfil del usuario
         //this._usuPermisoDAL.UsuarioActual = usuario;
@@ -47,7 +48,9 @@ public class UsuarioConversor : IConversor<BE.UsuarioBE>
         usuario.Apellido  = Convert.ToString(reader["Apellido"]);
         usuario.DNI = Convert.ToString(reader["DNI"]);
         usuario.Email = Convert.ToString(reader["Email"]);
+        usuario.idioma = Convert.ToInt32(reader["id_idioma"]);
         usuario.Bloqueado = Convert.ToInt16(reader["Bloqueado"]);
+        usuario.Eliminado = Convert.ToInt16(reader["Eliminado"]);
         usuario.DVH = Convert.ToInt32(reader["DVH"]);
         // obtener el perfil del usuario
         //this._usuPermisoDAL.UsuarioActual = usuario;

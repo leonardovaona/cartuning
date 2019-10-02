@@ -21,9 +21,7 @@ public class DBUtils
         int DV = startIndex + 1;
         foreach (char sChar in sCadena)
         {
-
             DV += System.Convert.ToInt32(sChar) * i;
-
             //DV += (AscW(sChar)) * i;
             i += 1;
         }

@@ -44,7 +44,9 @@
     <Compile Include="BitacoraBLL.cs" />
     <Compile Include="BackupRestoreBLL.cs" />
     <Compile Include="Encrypter.cs" />
+    <Compile Include="IdiomaBLL.cs" />
     <Compile Include="IntegridadBLL.cs" />
+    <Compile Include="FamiliaBLL.cs" />
     <Compile Include="PermisoBLL.cs" />
     <Compile Include="UsuarioBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

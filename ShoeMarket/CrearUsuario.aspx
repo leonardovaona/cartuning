@@ -54,19 +54,25 @@
                             <tr>
                                     <td class="auto-style1">Contraseña</td>
                                     <td class="auto-style2">
-                                        <asp:TextBox ID="txtClave1" runat="server" Width="384px"></asp:TextBox>
+                                        <asp:TextBox ID="txtClave1" runat="server" Width="384px" TextMode="Password"></asp:TextBox>
                                     </td>                               
                                 </tr>    
                             <tr>
                                     <td class="auto-style1">Repetir contraseña</td>
                                     <td class="auto-style2">
-                                        <asp:TextBox ID="txtClave2" runat="server" Width="384px"></asp:TextBox>
+                                        <asp:TextBox ID="txtClave2" runat="server" Width="384px" TextMode="Password"></asp:TextBox>
                                     </td>                               
                                 </tr>    
                             <tr>
                                     <td class="auto-style1">Seleccionar idioma</td>
                                     <td class="auto-style2">
                                         <asp:TextBox ID="txtIdioma" runat="server" Width="384px"></asp:TextBox>
+                                    </td>                               
+                                </tr>                                
+                            <tr>
+                                    <td class="auto-style1">Seleccionar idioma</td>
+                                    <td class="auto-style2">
+                                        <asp:DropDownList ID="ddlIdiomas" runat="server"></asp:DropDownList>
                                     </td>                               
                                 </tr>                                
                             <tr>

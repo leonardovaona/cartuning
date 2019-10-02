@@ -73,7 +73,7 @@ namespace ShoeMarket.Vistas
             UsuarioBE _usuario = this.usuarioBLL.Consulta(ref filtro);
             if (_usuario != null)
             {
-                _usuario.Eliminado = true;
+                _usuario.Eliminado = 1;
                 return this.usuarioBLL.Baja(ref _usuario);
             }
             else
@@ -87,7 +87,7 @@ namespace ShoeMarket.Vistas
             UsuarioBE _usuario = this.usuarioBLL.Consulta(ref filtro);
             if (_usuario != null)
             {
-                _usuario.Eliminado = false;
+                _usuario.Eliminado = 0;
                 return this.usuarioBLL.Baja(ref _usuario);
             }
             else

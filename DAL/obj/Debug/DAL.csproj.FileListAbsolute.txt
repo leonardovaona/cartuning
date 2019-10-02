@@ -35,12 +35,11 @@ E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\DAL\obj\Debug\
 E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\DAL\obj\Debug\DAL.csproj.CopyComplete
 E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\DAL\obj\Debug\DAL.dll
 E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\DAL\obj\Debug\DAL.pdb
-C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
-C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
-C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\DAL\obj\Debug\DAL.dll
-C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\DAL\obj\Debug\DAL.pdb
 C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\DAL\bin\Debug\DAL.dll
 C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\DAL\bin\Debug\DAL.pdb
 C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\DAL\bin\Debug\BE.dll
 C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\DAL\bin\Debug\BE.pdb
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
 C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\DAL\obj\Debug\DAL.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\DAL\obj\Debug\DAL.pdb

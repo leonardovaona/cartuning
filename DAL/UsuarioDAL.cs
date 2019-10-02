@@ -28,7 +28,7 @@ public class UsuarioDAL : IUsuarioDAL
     public bool Alta(ref UsuarioBE value)
     {
         int resultado = 0;
-        IDbCommand comando = this.Wrapper.CrearComando("INSERT INTO USUARIO VALUES(@nombre, @apellido, @username, @clave,@email, @dni, @bloqueado, 0,0 )   SET @identity=@@Identity", CommandType.Text);
+        IDbCommand comando = this.Wrapper.CrearComando("INSERT INTO USUARIO VALUES(@nombre, @apellido, @username, @clave,@email, @dni, @bloqueado, @idioma,0 , @eliminado)   SET @identity=@@Identity", CommandType.Text);
         try
         {
             this.Wrapper.AgregarParametro(comando, "@nombre", value.Nombre);
@@ -37,10 +37,11 @@ public class UsuarioDAL : IUsuarioDAL
             this.Wrapper.AgregarParametro(comando, "@clave", value.Clave);
             this.Wrapper.AgregarParametro(comando, "@dni", value.DNI);
             this.Wrapper.AgregarParametro(comando, "@email", value.Email);
+            this.Wrapper.AgregarParametro(comando, "@idioma", value.idioma);
             this.Wrapper.AgregarParametro(comando, "@bloqueado", value.Bloqueado);
+            this.Wrapper.AgregarParametro(comando, "@eliminado", value.Eliminado);
             
-
-            IDataParameter paramRet = this.Wrapper.AgregarParametro(comando, "@identity", 0, DbType.Int32, ParameterDirection.Output);
+             IDataParameter paramRet = this.Wrapper.AgregarParametro(comando, "@identity", 0, DbType.Int32, ParameterDirection.Output);
 
 
             resultado = this._wrapper.EjecutarConsulta(comando);
@@ -48,12 +49,12 @@ public class UsuarioDAL : IUsuarioDAL
             // asignar el Id devuelto por la consulta al objeto
             if ((resultado > 0))
             {
-                value.Id = System.Convert.ToInt32(1);
+                value.Id = System.Convert.ToInt32(paramRet.Value);
 
                 // Calculo el nuevo digito horizontal
-                //value.DVH  = CalcularDVH(ref value);
-                //Modificacion(ref value);
-                //VerificadorDAL.ActualizarDVV("USUARIO", "idusuario");
+                value.DVH  = CalcularDVH(ref value);
+                Modificacion(ref value);
+                VerificadorDAL.ActualizarDVV("USUARIO", "id");
             }
         }
         catch
@@ -70,13 +71,18 @@ public class UsuarioDAL : IUsuarioDAL
     public bool Baja(ref BE.UsuarioBE value)
     {
         int resultado = 0;
-        IDbCommand comando = this.Wrapper.CrearComando("UPDATE USUARIO SET Usu_Eliminado=@eliminado WHERE idusuario =@id", CommandType.Text);
+        IDbCommand comando = this.Wrapper.CrearComando("UPDATE USUARIO SET Eliminado=@eliminado WHERE id =@id", CommandType.Text);
         try
         {
             this.Wrapper.AgregarParametro(comando, "@id", value.Id);
             this.Wrapper.AgregarParametro(comando, "@eliminado", value.Eliminado);
 
             resultado = this._wrapper.EjecutarConsulta(comando);
+
+            // Calculo el nuevo digito horizontal
+            value.DVH = CalcularDVH(ref value);
+            Modificacion(ref value);
+            VerificadorDAL.ActualizarDVV("USUARIO", "id");
         }
         catch
         {
@@ -100,7 +106,6 @@ public class UsuarioDAL : IUsuarioDAL
 
     public bool BloquearCuenta(ref BE.UsuarioBE value)
     {
-        value.Bloqueado = 0;
         int resultado = 0;
         IDbCommand comando = this.Wrapper.CrearComando("UPDATE USUARIO SET Bloqueado=@bloqueado WHERE id=@id", CommandType.Text);
         try
@@ -120,16 +125,16 @@ public class UsuarioDAL : IUsuarioDAL
         return (resultado > 0);
     }
 
-    public List<BE.UsuarioBE> ConsultaRango(ref BE.UsuarioBE filtroDesde, ref BE.UsuarioBE filtroHasta)
+    public List<UsuarioBE> ConsultaRango(ref UsuarioBE filtroDesde, ref UsuarioBE filtroHasta)
     {
-        List<BE.UsuarioBE> lista = new List<BE.UsuarioBE>();
+        List<UsuarioBE> lista = new List<BE.UsuarioBE>();
 
         IDbCommand comando = this.Wrapper.CrearComando("SELECT * FROM USUARIO WHERE (username=@nombre OR @nombre IS NULL) AND (id=@id OR @id IS NULL) ORDER BY Nombre", CommandType.Text);
         
         try
         {
             if (filtroDesde != null && filtroDesde.Id > 0)
-                this.Wrapper.AgregarParametro(comando, "@id", filtroDesde.Id);
+                this.Wrapper.AgregarParametro(comando, "@id", filtroDesde.Id);  
             else
                 this.Wrapper.AgregarParametro(comando, "@id", DBNull.Value);
             if (filtroDesde != null && !string.IsNullOrEmpty(filtroDesde.Username ))

@@ -42,13 +42,15 @@
   <ItemGroup>
     <Compile Include="BackupRestoreBE.cs" />
     <Compile Include="BitacoraBE.cs" />
+    <Compile Include="DetalleIdiomaBE.cs" />
     <Compile Include="DigitoVerificador.cs" />
     <Compile Include="FamiliaBE.cs" />
     <Compile Include="ICRUD.cs" />
+    <Compile Include="IdiomaBE.cs" />
     <Compile Include="IVerificable.cs" />
-    <Compile Include="PermisoCompuestoDTO.cs" />
     <Compile Include="PermisoBE.cs" />
-    <Compile Include="PermisoSimpleDTO.cs" />
+    <Compile Include="PermisoCompuestoBE.cs" />
+    <Compile Include="PermisoSimpleBE.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UsuarioBE.cs" />
     <Compile Include="VerificadorBE.cs" />

@@ -25,7 +25,7 @@ namespace ShoeMarket.Vistas
             get
             {
                 if (_permiso == null)
-                    _permiso = new PermisoSimpleDTO();
+                    _permiso = new PermisoSimpleBE();
                 return _permiso;
             }
             set
@@ -34,8 +34,8 @@ namespace ShoeMarket.Vistas
             }
         }
 
-        private IPermisoBLL _PermisoBLL;
-        public IPermisoBLL PermisoBLL
+        private PermisoBLL _PermisoBLL;
+        public PermisoBLL PermisoBLL
         {
             get
             {
@@ -51,7 +51,7 @@ namespace ShoeMarket.Vistas
 
         public PermisoBE ObtenerPorId(int id)
         {
-            PermisoBE filtro = new PermisoSimpleDTO();
+            PermisoBE filtro = new PermisoSimpleBE();
             filtro.Id = id;
             this.Permiso = this.PermisoBLL.Consulta(ref filtro);
             return this.Permiso;
@@ -69,7 +69,7 @@ namespace ShoeMarket.Vistas
 
         public bool EliminarPorId(string id)
         {
-            PermisoBE filtro = new PermisoSimpleDTO();
+            PermisoBE filtro = new PermisoSimpleBE();
             filtro.Id = Convert.ToInt32(id);
             PermisoBE _permiso = this.PermisoBLL.Consulta(ref filtro);
             if (_permiso != null)
@@ -83,7 +83,7 @@ namespace ShoeMarket.Vistas
 
         public bool RestaurarPorId(string id)
         {
-            PermisoBE filtro = new PermisoSimpleDTO();
+            PermisoBE filtro = new PermisoSimpleBE();
             filtro.Id = Convert.ToInt32(id);
             PermisoBE _permiso = this.PermisoBLL.Consulta(ref filtro);
             if (_permiso != null)
@@ -97,14 +97,14 @@ namespace ShoeMarket.Vistas
 
         public void LlenarGrilla(ref System.Web.UI.WebControls.GridView dataGrid)
         {
-            PermisoBE prueba = new PermisoSimpleDTO();
+            PermisoBE prueba = new PermisoSimpleBE();
             dataGrid.DataSource = this.PermisoBLL.ConsultaRango(ref prueba, ref prueba);
             dataGrid.DataBind();
         }
 
         public void LlenarLista(ref System.Web.UI.WebControls.ListControl listBox)
         {
-            PermisoBE prueba = new PermisoSimpleDTO();
+            PermisoBE prueba = new PermisoSimpleBE();
             List<PermisoBE> lista = this.PermisoBLL.ConsultaRango(ref prueba, ref prueba);
             this.LlenarLista(ref listBox, lista);
         }

@@ -73,7 +73,7 @@ public class Autenticador
             usuarioIntentoActual = this._UsuarioBLL.Consulta(ref value);
             if (usuarioIntentoActual != null)
             {
-                if (usuarioIntentoActual.Username.ToUpper().Equals(value.Username.ToUpper()) && usuarioIntentoActual.Clave.Equals(value.Clave) && usuarioIntentoActual.Bloqueado == 0 && usuarioIntentoActual.Eliminado == false)
+                if (usuarioIntentoActual.Username.ToUpper().Equals(value.Username.ToUpper()) && usuarioIntentoActual.Clave.Equals(value.Clave) && usuarioIntentoActual.Bloqueado == 0 && usuarioIntentoActual.Eliminado == 0)
                     this._intentosFallidos = 0;
                 else
                 {

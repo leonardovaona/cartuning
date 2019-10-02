@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using BE;
+using BLL;
 
 namespace ShoeMarket
 {
@@ -12,7 +13,25 @@ namespace ShoeMarket
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack)
+            {
+                CargarIdioma();
+            }
+        }
 
+        protected void CargarIdioma()
+        {
+            IdiomaBLL idiomaBLL = new IdiomaBLL();
+            List<IdiomaBE> idiomas = new List<IdiomaBE>();
+            idiomas = idiomaBLL.ConsultaRango(null, null);
+
+            foreach (IdiomaBE idioma in idiomas)
+            {
+                ListItem newItem = new ListItem();
+                newItem.Text = idioma.Codigo;
+                newItem.Value = Convert.ToString(idioma.Id);
+                ddlIdiomas.Items.Add(newItem);
+            }
         }
 
         protected void btnGuardar_Click(object sender, EventArgs e)
@@ -72,12 +91,17 @@ namespace ShoeMarket
                 return;
             }
 
+            ListItem listItem = new ListItem();
+            listItem = ddlIdiomas.SelectedItem;
+
+
             UsuarioBE usuario = new UsuarioBE();
             usuario.Nombre = txtNombre.Text;
             usuario.Apellido = txtApellido.Text;
             usuario.Username = txtUsername.Text;
             usuario.Email = txtEmail.Text;
             usuario.DNI = txtDNI.Text;
+            usuario.idioma = Convert.ToInt16(listItem.Value);
             usuario.Clave = Encrypter.EncriptarSHA512(txtClave1.Text);
                         
             UsuarioBLL mUsuario = new UsuarioBLL();
