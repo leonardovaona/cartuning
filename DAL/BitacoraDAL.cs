@@ -28,7 +28,7 @@ public class BitacoraDAL : IBitacoraDAL
     public bool Alta(ref BitacoraBE value)
     {
         int resultado = 0;
-        IDbCommand comando = this.Wrapper.CrearComando("INSERT INTO BITACORA (fecha, descripcion,dvh) VALUES(@fecha, @descripcion,0)  SET @identity=@@Identity ", CommandType.Text);
+        IDbCommand comando = this.Wrapper.CrearComando("INSERT INTO BITACORA (fecha, descripcion,DVH) VALUES(@fecha, @descripcion,0)  SET @identity=@@Identity ", CommandType.Text);
         try
         {
             this.Wrapper.AgregarParametro(comando, "@fecha", System.Convert.ToDateTime (value.Fecha));
@@ -46,9 +46,9 @@ public class BitacoraDAL : IBitacoraDAL
                 value.Id = System.Convert.ToInt32(paramRet.Value);
 
                 // Calculo el nuevo digito horizontal
-                //value.DVH  = CalcularDVH(ref value);
-                //Modificacion(ref value);
-                //VerificadorDAL.ActualizarDVV("BITACORA", "id");
+                value.DVH  = CalcularDVH(ref value);
+                Modificacion(ref value);
+                VerificadorDAL.ActualizarDVV("BITACORA", "id");
             }
         }
         catch (Exception ex)
@@ -196,7 +196,7 @@ public class BitacoraDAL : IBitacoraDAL
     public bool Modificacion(ref BitacoraBE value)
     {
         int resultado = 0;
-        IDbCommand comando = this.Wrapper.CrearComando("UPDATE BITACORA SET fecha=@fecha, descripcion=@descripcion, dvh=@dvh, WHERE id=@id", CommandType.Text);
+        IDbCommand comando = this.Wrapper.CrearComando("UPDATE BITACORA SET DVH=@dvh WHERE id=@id", CommandType.Text);
         try
         {
 
@@ -257,7 +257,7 @@ public class BitacoraDAL : IBitacoraDAL
         int DVH = 0;
 
         DVH += DBUtils.CalcularDigitoVerificador(System.Convert.ToString(value.Id), 0);
-        DVH += DBUtils.CalcularDigitoVerificador(System.Convert.ToString(value.Fecha), 1);
+        //DVH += DBUtils.CalcularDigitoVerificador(System.Convert.ToString(value.Fecha), 1);
         DVH += DBUtils.CalcularDigitoVerificador(System.Convert.ToString(value.Descripcion), 2);
         DVH += DBUtils.CalcularDigitoVerificador(System.Convert.ToString(value.Username), 3);
         DVH += DBUtils.CalcularDigitoVerificador(System.Convert.ToString(value.Criticidad), 4);

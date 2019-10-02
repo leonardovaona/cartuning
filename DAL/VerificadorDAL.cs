@@ -35,12 +35,12 @@ public class VerificadorDAL //: IVerificadorDAL
     public bool Alta(ref VerificadorBE value)
     {
         int resultado = 0;
-        IDbCommand comando = this.Wrapper.CrearComando("INSERT INTO DIGITOVERIFICADOR VALUES(@digitovertical,@tablanombre, 0) SET @identity=@@Identity", CommandType.Text);
+        IDbCommand comando = this.Wrapper.CrearComando("INSERT INTO digito VALUES(@tabla,@digito, 0) SET @identity=@@Identity", CommandType.Text);
         try
         {
-            this.Wrapper.AgregarParametro(comando, "@tablanombre", value.TablaNombre);
+            this.Wrapper.AgregarParametro(comando, "@tabla", value.TablaNombre);
             // Calculo el nuevo digito horizontal
-            this.Wrapper.AgregarParametro(comando, "@digitovertical", value.DigitoVertical);
+            this.Wrapper.AgregarParametro(comando, "@digito", value.DigitoVertical);
             IDataParameter paramRet = this.Wrapper.AgregarParametro(comando, "@identity", 0, DbType.Int32, ParameterDirection.Output);
 
             resultado = this._wrapper.EjecutarConsulta(comando);
@@ -72,7 +72,7 @@ public class VerificadorDAL //: IVerificadorDAL
     public bool Baja(ref VerificadorBE value)
     {
         int resultado = 0;
-        IDbCommand comando = this.Wrapper.CrearComando("DELETE FROM DIGITOVERIFICADOR WHERE iddigitoverificador=@id", CommandType.Text);
+        IDbCommand comando = this.Wrapper.CrearComando("DELETE FROM digito WHERE id=@id", CommandType.Text);
         try
         {
             this.Wrapper.AgregarParametro(comando, "@id", value.Id);
@@ -109,7 +109,7 @@ public class VerificadorDAL //: IVerificadorDAL
     {
         List<BE.VerificadorBE> lista = new List<BE.VerificadorBE>();
 
-        IDbCommand comando = this.Wrapper.CrearComando("SELECT * FROM DIGITOVERIFICADOR", CommandType.Text);
+        IDbCommand comando = this.Wrapper.CrearComando("SELECT * FROM digito", CommandType.Text);
         try
         {
             this.Wrapper.AgregarParametro(comando, "@tablanombre", DBNull.Value);
@@ -133,7 +133,7 @@ public class VerificadorDAL //: IVerificadorDAL
     {
         List<BE.VerificadorBE> lista = new List<BE.VerificadorBE>();
 
-        IDbCommand comando = this.Wrapper.CrearComando("SELECT * FROM DIGITOVERIFICADOR WHERE (iddigitoverificador=@id OR @id IS NULL) AND (tablanombre=@tablanombre OR @tablanombre IS NULL)", CommandType.Text);
+        IDbCommand comando = this.Wrapper.CrearComando("SELECT * FROM digito WHERE (id=@id OR @id IS NULL) AND (tabla=@tablanombre OR @tablanombre IS NULL)", CommandType.Text);
         try
         {
             if (filtroDesde != null && filtroDesde.Id > 0)
@@ -166,7 +166,7 @@ public class VerificadorDAL //: IVerificadorDAL
     {
         List<BE.VerificadorBE> lista = new List<BE.VerificadorBE>();
 
-        IDbCommand comando = this.Wrapper.CrearComando("SELECT * FROM DIGITOVERIFICADOR", CommandType.Text);
+        IDbCommand comando = this.Wrapper.CrearComando("SELECT * FROM digito", CommandType.Text);
         try
         {
          
@@ -190,18 +190,17 @@ public class VerificadorDAL //: IVerificadorDAL
     public bool Modificacion(ref VerificadorBE value)
     {
         int resultado = 0;
-        IDbCommand comando = this.Wrapper.CrearComando("UPDATE DIGITOVERIFICADOR SET dvv=@digitovertical, dvh=@digitohorizontal, TABLANOMBRE=@nombretabla WHERE iddigitoverificador=@id", CommandType.Text);
+        IDbCommand comando = this.Wrapper.CrearComando("UPDATE digito SET digito=@digito,dvh=@dvh, tabla=@tabla WHERE id=@id", CommandType.Text);
         try
         {
-            this.Wrapper.AgregarParametro(comando, "@nombretabla", value.TablaNombre);
-            this.Wrapper.AgregarParametro(comando, "@digitovertical", value.DigitoVertical);
+            this.Wrapper.AgregarParametro(comando, "@tabla", value.TablaNombre);
+            this.Wrapper.AgregarParametro(comando, "@digito", value.DigitoVertical);            
             this.Wrapper.AgregarParametro(comando, "@id", value.Id);
 
             // Calculo el nuevo digito horizontal
             value.DigitoHorizontal = CalcularDVH(ref value);
-            this.Wrapper.AgregarParametro(comando, "@digitohorizontal", value.DigitoHorizontal);
-
-            // ejecutar el comando/consulta SQL en el origen de datos
+            this.Wrapper.AgregarParametro(comando, "@dvh", value.DigitoHorizontal);
+                        
             resultado = this._wrapper.EjecutarConsulta(comando);
         }
         catch
@@ -283,14 +282,14 @@ public class VerificadorDAL //: IVerificadorDAL
         foreach (VerificadorBE objDTO in listaDTO)
         {        
             if ((!VerificarDVH(objDTO)))
-                throw new Exception("Verificacion Digito Horizontal en tabla DIGITOVERIFICADOR, id:" + System.Convert.ToString(objDTO.Id) + " Fallido");
+                throw new Exception("Verificacion Digito Horizontal en tabla digito, id:" + System.Convert.ToString(objDTO.Id) + " Fallido");
         }
         return true;
     }
 
     private void ActualizarDVVPropio()
     {
-        ActualizarDVV("DIGITOVERIFICADOR", "IDDIGITOVERIFICADOR");
+        ActualizarDVV("digito", "id");
     }
     public static void ActualizarDVV(string sNombreTabla, string nombreCampoId)
     {
@@ -340,6 +339,7 @@ public class VerificadorDAL //: IVerificadorDAL
         {
             this.Wrapper.CerrarConexion(comando);
         }
+
         return DVV;
     }
 

@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace ShoeMarket
 {
-    public partial class CrearFamilia : System.Web.UI.Page
+    public partial class Idioma : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

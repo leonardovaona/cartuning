@@ -16,7 +16,7 @@ namespace ShoeMarket
     public partial class Login : System.Web.UI.Page
     {
         private AutenticacionVista vistaAutenticacion = new AutenticacionVista();
-
+        private int MaxIntentos = 3;
         protected void Page_Load(object sender, EventArgs e)
         {
             try
@@ -27,6 +27,7 @@ namespace ShoeMarket
                     {
                         divIniciarSesion.Visible = false;
                         lblUsuarioActual.Text = vistaAutenticacion.UsuarioActual.Username;
+                        CargarIdiomaUsuario();
                     }
                     else
                         divIniciarSesion.Visible = true;
@@ -42,7 +43,16 @@ namespace ShoeMarket
             }
         }
 
-        private int MaxIntentos = 3;
+        protected void CargarIdiomaUsuario()
+        {
+            IdiomaBLL idiomaBLL = new IdiomaBLL();
+            IdiomaBE idioma = new IdiomaBE();
+
+            idioma = (IdiomaBE)HttpContext.Current.Application["idioma" + vistaAutenticacion.UsuarioActual.idioma];
+
+            //btnLogin.Text = idioma.Detalle.Where(a => a.Control == "botonlogin").First().Palabra;
+
+        }
 
         protected void btnLogin_Click1(object sender, EventArgs e)
         {
@@ -75,7 +85,7 @@ namespace ShoeMarket
                     try
                     {
                         
-                       // sMsg = IntegridadBLL.VerificarIntegridadBD();
+                        sMsg = IntegridadBLL.VerificarIntegridadBD();
 
                         if ((sMsg == null))
                             bdOk = true;
@@ -87,7 +97,7 @@ namespace ShoeMarket
                     {
                         AutenticacionVista autenticacionVista = new AutenticacionVista();
                         var usuarioActual = autenticacionVista.UsuarioActual;
-                        if (autenticacionVista.UsuarioPoseePermiso(usuarioActual, 1))
+                        if (autenticacionVista.UsuarioPoseePermiso(usuarioActual, 5))
                             this.Response.Redirect("~/IntegridadBD.aspx", false);
                     }
                     else

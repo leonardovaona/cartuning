@@ -34,7 +34,7 @@ namespace BLL
 
             try
             {
-                mVerificador.VerificarDVV("USUARIO", "idusuario");
+                mVerificador.VerificarDVV("USUARIO", "id");
             }
             catch (Exception ex)
             {
@@ -52,7 +52,7 @@ namespace BLL
 
             try
             {
-                mVerificador.VerificarDVV("DIGITOVERIFICADOR", "IDDIGITOVERIFICADOR");
+                mVerificador.VerificarDVV("digito", "id");
             }
             catch (Exception ex)
             {
@@ -105,7 +105,7 @@ namespace BLL
 
                 VerificadorDAL.ActualizarDVV("USUARIO", "id");
                 VerificadorDAL.ActualizarDVV("BITACORA", "id");
-                VerificadorDAL.ActualizarDVV("DIGITOVERIFICADOR", "IDDIGITOVERIFICADOR");
+                VerificadorDAL.ActualizarDVV("digito", "id");
                 
             }
             catch (Exception ex)

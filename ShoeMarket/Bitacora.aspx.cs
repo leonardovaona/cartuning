@@ -17,7 +17,7 @@ namespace ShoeMarket
             {                
                 AutenticacionVista autenticacionVista = new AutenticacionVista();
                 var usuarioActual = autenticacionVista.UsuarioActual;
-                if (!autenticacionVista.UsuarioPoseePermiso(usuarioActual, 4))             
+                if (!autenticacionVista.UsuarioPoseePermiso(usuarioActual, 5))             
                     this.Response.Redirect("~/Default.aspx");
 
                 lblMensaje.Text = string.Empty;

@@ -60,7 +60,7 @@ public class AutenticacionVista
         {
             // es un usuario valido, se crea la variable de Sesion de usuario
             if (HttpContext.Current != null)
-                HttpContext.Current.Session["UsuarioActual"] = usuarioIntentoActual;
+                HttpContext.Current.Session["UsuarioActual"] = usuarioIntentoActual;            
             loginOk = true;
         }
 
@@ -101,7 +101,7 @@ public class AutenticacionVista
         UsuarioBE usuarioLogin = new UsuarioBE();
         usuarioLogin.Username = username;        
         usuarioLogin.Clave = Encrypter.EncriptarSHA512(clave);
-        usuarioLogin.Eliminado = false;
+        usuarioLogin.Eliminado = 0;
         usuarioLogin.Bloqueado = 0;
         return usuarioLogin;
     }
