@@ -48,11 +48,14 @@
     <Compile Include="BitacoraDAL.cs" />
     <Compile Include="ComandoFactory.cs" />
     <Compile Include="DBUtils.cs" />
+    <Compile Include="DetalleIdiomaConversor.cs" />
     <Compile Include="FamiliaConversor.cs" />
     <Compile Include="FamiliaDAL.cs" />
     <Compile Include="FamiliaPermisoDAL.cs" />
     <Compile Include="IComando.cs" />
     <Compile Include="IConversor.cs" />
+    <Compile Include="IdiomaConversor.cs" />
+    <Compile Include="IdiomaDAL.cs" />
     <Compile Include="IMapeador.cs" />
     <Compile Include="IVerificador.cs" />
     <Compile Include="PermisoConversor.cs" />

@@ -15,19 +15,6 @@ using DAL;
 
 namespace BLL
 {
-    public interface IPermisoBLL : ICRUD<PermisoBE>
-    {
-
-        /// <summary>
-        ///     ''' Agrega nuevo un permiso hijo a otro permiso.
-        ///     ''' </summary>
-        bool AgregarHijo(BE.PermisoBE padre, BE.PermisoBE hijo);
-
-        /// <summary>
-        ///     ''' Elimina un permiso hijo de su permiso padre.
-        ///     ''' </summary>
-        bool QuitarHijo(BE.PermisoBE padre, BE.PermisoBE hijo);
-    }
 
     /// <summary>
 
@@ -35,16 +22,16 @@ namespace BLL
 
     /// ''' </summary>
 
-    public class PermisoBLL : IPermisoBLL
+    public class PermisoBLL
     {
 
         /// <summary>
         ///     ''' objeto que se conectara al origen de datos para actualizarlo y consultarlo
         ///     ''' </summary>
-        private IPermisoDAL _dao = null/* TODO Change to default(_) if this is not a reference type */;
+        private PermisoDAL _dao = null/* TODO Change to default(_) if this is not a reference type */;
         private IFamiliaPermisoDAL _daoFamilia = null/* TODO Change to default(_) if this is not a reference type */;
 
-        public PermisoBLL(IPermisoDAL pDAO, IFamiliaPermisoDAL pFamiliaDAO)
+        public PermisoBLL(PermisoDAL pDAO, IFamiliaPermisoDAL pFamiliaDAO)
         {
             this._dao = pDAO;
             this._daoFamilia = pFamiliaDAO;
@@ -104,7 +91,7 @@ namespace BLL
         /// <summary>
         ///     ''' Retorna todos los permisos que coincidan con el fitrol especificado.
         ///     ''' </summary>
-        public System.Collections.Generic.List<BE.PermisoBE> ConsultaRango(ref BE.PermisoBE filtroDesde, ref BE.PermisoBE filtroHasta)
+        public List<BE.PermisoBE> ConsultaRango(ref BE.PermisoBE filtroDesde, ref BE.PermisoBE filtroHasta)
         {
             try
             {
@@ -116,7 +103,7 @@ namespace BLL
             }
         }
 
-        public System.Collections.Generic.List<BE.PermisoBE> ConsultaRango( BE.PermisoBE filtroDesde, BE.PermisoBE filtroHasta)
+        public List<PermisoBE> ConsultaRango( PermisoBE filtroDesde, PermisoBE filtroHasta)
         {
             try
             {
@@ -143,47 +130,20 @@ namespace BLL
             }
         }
 
-        /// <summary>
-        ///     ''' Agrega nuevo un permiso hijo a otro permiso.
-        ///     ''' </summary>
-        public bool AgregarHijo(BE.PermisoBE padre, BE.PermisoBE hijo)
+        public bool AgregarPermisos(FamiliaBE familia)
         {
-            
-            if (!ValidarPermisoHijo(padre, hijo, padre))
-                throw new Exception("No se puede agregar el hijo, porque violaria la regla de recursividad.");
-
-            try
-            {
-            
-                this._daoFamilia.PermisoPadre = padre;
-                return this._daoFamilia.Alta(ref hijo);
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("No se puede agregar el hijo.", ex);
-            }
+            return this._dao.AgregarPermisos(familia);
         }
 
-        /// <summary>
-        ///     ''' Elimina un permiso hijo de su permiso padre.
-        ///     ''' </summary>
-        public bool QuitarHijo(BE.PermisoBE padre, BE.PermisoBE hijo)
+        public bool QuitarPermisos(FamiliaBE familia)
         {
-            try
-            {
-                // quitar
-                this._daoFamilia.PermisoPadre = padre;
-                return this._daoFamilia.Baja(ref hijo);
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("No se puede quitar el hijo.", ex);
-            }
+            return this._dao.QuitarPermisos(familia);
         }
 
-        /// <summary>
-        ///     ''' Valida recursivamente que el nuevo permiso hijo no este dentro de los padres o dentro de los padres de los padres.
-        ///     ''' </summary>
+        public List<PermisoBE> ConsultaPermisos(FamiliaBE familia)
+        {
+            return this._dao.ConsultarHijos(familia);
+        }
         private bool ValidarPermisoHijo(BE.PermisoBE padre, BE.PermisoBE nuevoHijo, BE.PermisoBE padreOriginal)
         {
          
@@ -195,7 +155,7 @@ namespace BLL
                 if (!padre.Equals(nuevoHijo))
                 {
          
-                    PermisoBE filtroPadre = new PermisoSimpleDTO();
+                    PermisoBE filtroPadre = new PermisoSimpleBE();
                     filtroPadre.Id = padre.Id;
                     Int32 i = 0;
                     this._daoFamilia.PermisoPadre = null;

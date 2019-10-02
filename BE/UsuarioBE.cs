@@ -17,9 +17,10 @@ namespace BE
         public string Apellido { get; set; }
         public string Email { get; set; }
         public string DNI { get; set; }        
+        public int idioma { get; set; }
         public int DVH { get; set; }
         public List<PermisoBE> Perfil { get; set; }
-        public bool Eliminado { get; set; }
+        public int Eliminado { get; set; }
         public int Bloqueado { get; set; }
 
         public override string ToString()

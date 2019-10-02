@@ -73,7 +73,7 @@ public class UsuarioBLL : IUsuarioBLL
     {
         try
         {
-            return this.Baja(ref value);
+            return this._dal.Baja(ref value);
         }
         catch (Exception ex)
         {
@@ -192,3 +192,5 @@ public class UsuarioBLL : IUsuarioBLL
 
 
 }
+
+//tritonyl 300 mg

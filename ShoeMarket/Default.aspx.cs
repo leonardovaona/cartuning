@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using BLL;
+using BE;
 
 namespace ShoeMarket
 {
@@ -22,21 +23,20 @@ namespace ShoeMarket
 
                 if (usuarioActual != null)
                 {
-                    welcomeLabel.Text = string.Format("<h1>¡Bienvenido {0} a <span>Shoe</span>Market!<h1>", usuarioActual.Nombre);
-                    btnIntegridadBD.Visible = autenticacionVista.UsuarioPoseePermiso(usuarioActual, 1);
+                    CargarIdiomaUsuario(usuarioActual.idioma);
+                    welcomeLabel.Text = string.Format(welcomeLabel.Text, usuarioActual.Nombre);
+                    btnIntegridadBD.Visible = autenticacionVista.UsuarioPoseePermiso(usuarioActual, 5);
 
-                    if (true) //IntegridadBLL.VerificarIntegridadBD() == null)
-                    {
-
-                        btnCarrito.Visible = autenticacionVista.UsuarioPoseePermiso(usuarioActual, 3);
-                        btnCambioDePrecios.Visible = autenticacionVista.UsuarioPoseePermiso(usuarioActual, 2);
-                        btnBitacora.Visible = autenticacionVista.UsuarioPoseePermiso(usuarioActual, 4);
+                    if (IntegridadBLL.VerificarIntegridadBD() == null)
+                    {                                                
+                        btnBitacora.Visible = autenticacionVista.UsuarioPoseePermiso(usuarioActual, 5);
                         btnAdministracionUsuarios.Visible = autenticacionVista.UsuarioPoseePermiso(usuarioActual, 5);
-                        btnBackupYRestore.Visible = autenticacionVista.UsuarioPoseePermiso(usuarioActual, 1);
+                        btnAdministracionFamilias.Visible = autenticacionVista.UsuarioPoseePermiso(usuarioActual, 5);
+                        btnBackupYRestore.Visible = autenticacionVista.UsuarioPoseePermiso(usuarioActual, 5);
                     }
                     else
                     {
-                        if (autenticacionVista.UsuarioPoseePermiso(usuarioActual, 1))
+                        if (autenticacionVista.UsuarioPoseePermiso(usuarioActual, 5))
                             Response.Redirect("~/IntegridadBD.aspx", false);
                         else
                         {
@@ -46,15 +46,33 @@ namespace ShoeMarket
                     }
     
                 }
-                else
-                    welcomeLabel.Text = "<h1>¡Bienvenido a <span>Shoe</span>Market!<h1>";
+                /*else
+                    welcomeLabel.Text = "<h1>¡Bienvenido a <span>Shoe</span>Market!<h1>";*/
             }
             catch (Exception ex)
             {
                 lblMensaje.Text = ErrorHandler.ObtenerMensajeDeError(ex);
             }
         }
-        
+
+        protected void CargarIdiomaUsuario(int id)
+        {
+            IdiomaBLL idiomaBLL = new IdiomaBLL();
+            IdiomaBE idioma = new IdiomaBE();
+
+            idioma = (IdiomaBE)HttpContext.Current.Application["idioma" + id];
+
+            // botones
+            btnAdministracionFamilias.Text = idioma.Detalle.Where(a => a.Control == "btnAdministrarFamilias").First().Palabra;
+            btnAdministracionUsuarios.Text = idioma.Detalle.Where(a => a.Control == "btnAdministrarUsuarios").First().Palabra;
+            btnBitacora.Text = idioma.Detalle.Where(a => a.Control == "btnBitacora").First().Palabra;
+            btnBackupYRestore.Text = idioma.Detalle.Where(a => a.Control == "btnBackupYRestore").First().Palabra;
+            // label
+            welcomeLabel.Text = idioma.Detalle.Where(a => a.Control == "welcomelabel").First().Palabra;
+            lblLema.Text = idioma.Detalle.Where(a => a.Control == "lblLema").First().Palabra;
+        }
+
+
         protected void btnCarrito_Click(object sender, EventArgs e)
         {
             Response.Redirect("~/Carrito.aspx");
@@ -73,6 +91,11 @@ namespace ShoeMarket
         protected void btnAdministracionUsuarios_Click(object sender, EventArgs e)
         {
             Response.Redirect("~/Usuario.aspx", false);
+        }
+
+        protected void btnAdministracionFamilias_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Familia.aspx",false);
         }
     }
 }

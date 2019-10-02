@@ -35,22 +35,9 @@ namespace DAL
 
         public FamiliaBE Convertir(System.Data.IDataReader reader)
         {
-            Int32 cantHijos = 0;
-
-            FamiliaBE familia;
-            if (cantHijos > 0)
-                familia = new FamiliaBE();
-            else
-                familia = new FamiliaBE();
-            familia.Id = Convert.ToInt32(reader["id"]);
-            familia.Nombre = Convert.ToString(reader["Nombre"]);
-
-            // leitho ver que pasa con esto
-        /*if (cantHijos > 0)
-            {
-                this._familiaDA = permiso;
-                permiso.Permisos = this._famPemisosDAL.ConsultaRango(null, null);
-            }*/
+            
+            FamiliaBE familia = new FamiliaBE();
+            familia.Id = Convert.ToInt32(reader["id"]);            
 
             return familia;
         }

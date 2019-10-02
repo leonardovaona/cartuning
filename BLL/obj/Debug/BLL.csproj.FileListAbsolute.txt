@@ -41,14 +41,13 @@ E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\BLL\bin\Debug\
 E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\BLL\bin\Debug\BE.pdb
 E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\BLL\bin\Debug\DAL.pdb
 E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\BLL\obj\Debug\BLL.csproj.CopyComplete
-C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
-C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
-C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BLL\obj\Debug\BLL.dll
-C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BLL\obj\Debug\BLL.pdb
 C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BLL\bin\Debug\BLL.dll
 C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BLL\bin\Debug\BLL.pdb
 C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BLL\bin\Debug\BE.dll
 C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BLL\bin\Debug\DAL.dll
 C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BLL\bin\Debug\BE.pdb
 C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BLL\bin\Debug\DAL.pdb
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
 C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BLL\obj\Debug\BLL.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BLL\obj\Debug\BLL.pdb

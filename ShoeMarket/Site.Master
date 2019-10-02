@@ -12,11 +12,16 @@
 <body>
     <form runat="server">
         <header style="background-color: lightblue;">
-            <h1 class="logo"><a href="~/Home.aspx" ID="A1" runat="server"><img src="img/logo.png" style="width: 33%;" /></a></h1>
+            
             <ul class="contact-data">
                 <li><strong>Telefono: </strong>15-4097-1234</li>
                 <li><strong>Consultas: </strong>ventas@cartuning.com</li>
             </ul>
+            <div id="divIdioma" runat="server">
+                <asp:DropDownList ID="ddlIdioma" runat="server">
+
+                </asp:DropDownList>
+            </div>
             <div class="user-login">
                 <a href="~/Login.aspx" ID="HeadLoginStatus" runat="server">Iniciar sesión</a>
                 <a href="~/CrearUsuario.aspx" id="HeadCrearUsuario" runat ="server">Registrarse</a>

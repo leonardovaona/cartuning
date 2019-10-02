@@ -22,6 +22,15 @@ namespace ShoeMarket {
         protected global::System.Web.UI.WebControls.Label welcomeLabel;
         
         /// <summary>
+        /// lblLema control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblLema;
+        
+        /// <summary>
         /// lblMensaje control.
         /// </summary>
         /// <remarks>
@@ -47,6 +56,15 @@ namespace ShoeMarket {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnAdministracionUsuarios;
+        
+        /// <summary>
+        /// btnAdministracionFamilias control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnAdministracionFamilias;
         
         /// <summary>
         /// btnBitacora control.

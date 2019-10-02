@@ -28,6 +28,5 @@ E:\Leitho\UAI\Lenguajes para la adminstracion\TP\V8\TheShoeMarket\BE\obj\Debug\B
 C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BE\bin\Debug\BE.dll
 C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BE\bin\Debug\BE.pdb
 C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BE\obj\Debug\BE.csprojAssemblyReference.cache
-C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
 C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BE\obj\Debug\BE.dll
 C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\BE\obj\Debug\BE.pdb

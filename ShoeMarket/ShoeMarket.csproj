@@ -98,16 +98,14 @@
   <ItemGroup>
     <Content Include="BackupRestore.aspx" />
     <Content Include="Bitacora.aspx" />
-    <Content Include="CrearFamilia.aspx" />
+    <Content Include="Familia.aspx" />
     <Content Include="CrearUsuario.aspx" />
     <Content Include="css\estilos.css" />
     <Content Include="css\normalize.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
-    <Content Include="img\logo.png" />
-    <Content Include="img\zapato 1.jpeg" />
-    <Content Include="img\zapato 2.jpg" />
-    <Content Include="img\zapato 3.jpeg" />
+    <Content Include="Idioma.aspx" />
     <Content Include="IntegridadBD.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="packages.config" />
@@ -143,12 +141,12 @@
     <Compile Include="Bitacora.aspx.designer.cs">
       <DependentUpon>Bitacora.aspx</DependentUpon>
     </Compile>
-    <Compile Include="CrearFamilia.aspx.cs">
-      <DependentUpon>CrearFamilia.aspx</DependentUpon>
+    <Compile Include="Familia.aspx.cs">
+      <DependentUpon>Familia.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="CrearFamilia.aspx.designer.cs">
-      <DependentUpon>CrearFamilia.aspx</DependentUpon>
+    <Compile Include="Familia.aspx.designer.cs">
+      <DependentUpon>Familia.aspx</DependentUpon>
     </Compile>
     <Compile Include="CrearUsuario.aspx.cs">
       <DependentUpon>CrearUsuario.aspx</DependentUpon>
@@ -165,12 +163,22 @@
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="ErrorHandler.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Idioma.aspx.cs">
+      <DependentUpon>Idioma.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Idioma.aspx.designer.cs">
+      <DependentUpon>Idioma.aspx</DependentUpon>
     </Compile>
     <Compile Include="IntegridadBD.aspx.cs">
       <DependentUpon>IntegridadBD.aspx</DependentUpon>
@@ -216,7 +224,9 @@
       <Name>BLL</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="img\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

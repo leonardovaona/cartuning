@@ -22,7 +22,7 @@ namespace ShoeMarket
                 // Valido si el usuario posee permiso para acceder a esta página.
                 AutenticacionVista autenticacionVista = new AutenticacionVista();
                 var usuarioActual = autenticacionVista.UsuarioActual;
-                if (!autenticacionVista.UsuarioPoseePermiso(usuarioActual, 1))
+                if (!autenticacionVista.UsuarioPoseePermiso(usuarioActual, 5))
                     // Si no lo tiene se redirecciona a página de inicio.
                     this.Response.Redirect("~/Default.aspx");
 
@@ -66,10 +66,18 @@ namespace ShoeMarket
 
             try
             {
-                if ((mBackup.RealizarBackup(txtNombreBackup.Text, txtRutaBackup.Text, tamFragment)))
+                if (IntegridadBLL.VerificarIntegridadBD() == null)
                 {
-                    lblMensaje.Text = "Backup realizado con exito";
-                    lblMensaje.ForeColor = System.Drawing.Color.Blue;
+                    if ((mBackup.RealizarBackup(txtNombreBackup.Text, txtRutaBackup.Text, tamFragment)))
+                    {
+                        lblMensaje.Text = "Backup realizado con exito";
+                        lblMensaje.ForeColor = System.Drawing.Color.Blue;
+                    }
+                }
+                else
+                {
+                    lblMensaje.Text = "Error de digitos verificadores!!";
+                    lblMensaje.ForeColor = System.Drawing.Color.Red;
                 }
             }
             catch (Exception ex)
