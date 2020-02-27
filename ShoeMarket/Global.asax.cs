@@ -15,12 +15,7 @@ namespace ShoeMarket
     {
         void Application_AcquireRequestState(object sender, EventArgs e)
         {
-           /* HttpContext context = HttpContext.Current;
-            if (context.Session["carTuning.language"] != null)
-            {
-                Thread.CurrentThread.CurrentUICulture = new CultureInfo(context.Session["carTuning.language"].ToString().Trim());
-                Thread.CurrentThread.CurrentCulture = new CultureInfo(context.Session["carTuning.language"].ToString().Trim());
-            }*/                 
+                 
         }
         protected void Application_Start(object sender, EventArgs e)
         {

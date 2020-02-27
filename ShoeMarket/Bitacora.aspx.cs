@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Web.UI.WebControls;
 using ShoeMarket.Vistas;
 
 namespace ShoeMarket
@@ -17,7 +18,7 @@ namespace ShoeMarket
             {                
                 AutenticacionVista autenticacionVista = new AutenticacionVista();
                 var usuarioActual = autenticacionVista.UsuarioActual;
-                if (!autenticacionVista.UsuarioPoseePermiso(usuarioActual, 5))             
+                if (!autenticacionVista.UsuarioPoseePermiso(usuarioActual, 15))             
                     this.Response.Redirect("~/Default.aspx");
 
                 lblMensaje.Text = string.Empty;
@@ -42,6 +43,12 @@ namespace ShoeMarket
         protected void btnVolver_Click(object sender, EventArgs e)
         {
             this.Response.Redirect("~/Default.aspx", false);
+        }
+
+        protected void grillaBitacora_PageIndexChanging(object sender, GridViewPageEventArgs e)
+        {            
+            grillaBitacora.PageIndex = e.NewPageIndex;
+            LlenarGrilla();
         }
     }
 }

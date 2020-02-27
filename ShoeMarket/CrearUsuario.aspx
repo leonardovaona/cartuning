@@ -1,98 +1,65 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="CrearUsuario.aspx.cs" Inherits="ShoeMarket.CrearUsuario" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <div id="regitrarUsuario" runat="server">>
-    <table style="width: 782px">
-        <tr>
-            <td>
-                <h2>REGISTRARSE</h2>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <asp:Label ID="lblMensaje" runat="server" Text=""></asp:Label>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                        <table>
-                                <tr>
-                                    <td colspan="3"><h3>Usuario:</h3></td>
-                                </tr>
-                                <tr>
-                                    <td class="auto-style1">Nombre:</td>
-                                    <td class="auto-style2">
-                                        <asp:TextBox ID="txtNombre" runat="server" Width="384px"></asp:TextBox>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="auto-style1">Apellido:</td>
-                                    <td class="auto-style2">
-                                        <asp:TextBox ID="txtApellido" runat="server" Width="384px"></asp:TextBox>
-                                    </td>                               
-                                </tr>
-                                <tr>
-                                    <td class="auto-style1">Nombre de Usuario:</td>
-                                    <td class="auto-style2">
-                                        <asp:TextBox ID="txtUsername" runat="server" Width="384px"></asp:TextBox>
-                                    </td>                               
-                                </tr>
-                            <tr>
-                                    <td class="auto-style1">Email</td>
-                                    <td class="auto-style2">
-                                        <asp:TextBox ID="txtEmail" runat="server" Width="384px"></asp:TextBox>
-                                    </td>                               
-                                </tr>    
-                            <tr>
-                                    <td class="auto-style1">DNI</td>
-                                    <td class="auto-style2">
-                                        <asp:TextBox ID="txtDNI" runat="server" Width="384px"></asp:TextBox>
-                                    </td>                               
-                                </tr>    
-                            <tr>
-                                    <td class="auto-style1">Contraseña</td>
-                                    <td class="auto-style2">
-                                        <asp:TextBox ID="txtClave1" runat="server" Width="384px" TextMode="Password"></asp:TextBox>
-                                    </td>                               
-                                </tr>    
-                            <tr>
-                                    <td class="auto-style1">Repetir contraseña</td>
-                                    <td class="auto-style2">
-                                        <asp:TextBox ID="txtClave2" runat="server" Width="384px" TextMode="Password"></asp:TextBox>
-                                    </td>                               
-                                </tr>    
-                            <tr>
-                                    <td class="auto-style1">Seleccionar idioma</td>
-                                    <td class="auto-style2">
-                                        <asp:TextBox ID="txtIdioma" runat="server" Width="384px"></asp:TextBox>
-                                    </td>                               
-                                </tr>                                
-                            <tr>
-                                    <td class="auto-style1">Seleccionar idioma</td>
-                                    <td class="auto-style2">
-                                        <asp:DropDownList ID="ddlIdiomas" runat="server"></asp:DropDownList>
-                                    </td>                               
-                                </tr>                                
-                            <tr>
-                                    <td colspan="4" valign="middle" align="center" class="auto-style3" >                                
-                                        <asp:Button  ID="btnGuardar" runat="server" Text="Guardar" OnClick="btnGuardar_Click" />                                
-                                    </td>
-                                </tr>
-                        </table>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="3" style="text-align:center">
-                <br>
-                <asp:Button ID="btnVolver" runat="server" Text="Volver" OnClick="btnVolver_Click"/>
-            </td>
-        </tr>
-        <br />
-    </table>
+    <div class="jumbotron text-center">
+        <h3>
+            <asp:Label ID="lblUsuario" Text="Registrarse" runat="server" /></h3>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2">
+            </div>
+            <div class="col-sm-8">
+                <div id="regitrarUsuario" runat="server">
+                    <asp:Label ID="lblMensaje" runat="server" Text=""></asp:Label>
+                    <br /> 
+                    <asp:Label ID="lblNombre" runat="server" Text="Nombre" />
+                    <br />
+                    <asp:TextBox ID="txtNombre" runat="server" class="form-control" ></asp:TextBox>
+                    <br />
+                    <asp:Label ID="lblApellido" runat="server" Text="Apellido" />
+                    <br />
+                    <asp:TextBox ID="txtApellido" runat="server" class="form-control" ></asp:TextBox>
+                    <br />
+                    <asp:Label ID="lblUsername" runat="server" Text="Username" />
+                    <br />
+                    <asp:TextBox ID="txtUsername" runat="server" class="form-control" ></asp:TextBox>
+                    <asp:Label ID="lblEmail" runat="server" Text="Email" />
+                    <br />
+                    <asp:TextBox ID="txtEmail" runat="server" class="form-control" ></asp:TextBox>
+                    <br />
+                    <asp:Label ID="lblDNI" runat="server" Text="DNI" />
+                    <br />
+                    <asp:TextBox ID="txtDNI" runat="server" class="form-control" ></asp:TextBox>
+                    <br />
+                    <asp:Label ID="lblClave1" runat="server" Text="Contraseña" />
+                    <br />
+                    <asp:TextBox ID="txtClave1" runat="server" class="form-control"  TextMode="Password"></asp:TextBox>
+                    <br />
+                    <asp:Label ID="lblClave2" runat="server" Text="Repetir contraseña" />
+                    <br />
+                    <asp:TextBox ID="txtClave2" runat="server" class="form-control"  TextMode="Password"></asp:TextBox>
+                    <br />
+                    <asp:Label ID="lblIdioma" runat="server" Text="Idioma" />
+                                      
+                    <asp:DropDownList ID="ddlIdiomas"  class="btn btn-primary dropdown-toggle" runat="server"></asp:DropDownList>
+                    <br />
+                    <br />
+                    <br />
+                    <div >
+                    <asp:Button ID="btnGuardar" runat="server" Text="Guardar"  class="btn btn-primary" OnClick="btnGuardar_Click" />
+                        </div>
+
+                    <div id="registroOk" runat="server">
+                        <asp:Label ID="lblregistroOk" runat="server" Text=""></asp:Label>
+                    </div>
+                </div>
+                </div>
+                <div class="col-sm-2">
+                 
+                </div>            
         </div>
-    <div id="registroOk" runat="server">
-        <asp:Label ID="lblregistroOk" runat="server" Text=""></asp:Label>
     </div>
 </asp:Content>

@@ -16,7 +16,7 @@ namespace ShoeMarket
         {
             AutenticacionVista autenticacionVista = new AutenticacionVista();
             var usuarioActual = autenticacionVista.UsuarioActual;
-            if (!autenticacionVista.UsuarioPoseePermiso(usuarioActual, 5))
+            if (!autenticacionVista.UsuarioPoseePermiso(usuarioActual, 21))
                 this.Response.Redirect("~/Default.aspx");
 
             divGrilla.Visible = true;
@@ -114,25 +114,40 @@ namespace ShoeMarket
 
         protected void btnGuardar_Click(object sender, EventArgs e)
         {
-            FamiliaBLL familiaBLL = new FamiliaBLL();
-            FamiliaBE newFamilia = new FamiliaBE();
-
-            PermisoBLL permisoBLL = new PermisoBLL();
-            PermisoBE newPermiso = new PermisoBE();
-
-            newPermiso.Nombre = txtNombre.Text;
-            newPermiso.Descripcion = txtDescripcion.Text;
-
-            if (permisoBLL.Alta(ref newPermiso))
+            try
             {
-                lblMensaje.Text = "Se genero la familia correctamente";
-                lblMensaje.BackColor = System.Drawing.Color.Blue;
-                LlenarGrilla();
+                FamiliaBLL familiaBLL = new FamiliaBLL();
+                FamiliaBE newFamilia = new FamiliaBE();
+
+                PermisoBLL permisoBLL = new PermisoBLL();
+                PermisoBE newPermiso = new PermisoBE();
+
+                if (txtNombre.Text == "")
+                {
+                    throw new System.ArgumentException("Debe ingresar el nombre de la familia.");
+                }
+                if (txtDescripcion.Text == "")
+                {
+                    throw new System.ArgumentException("Debe ingresar la descripción de la familia.");
+                }
+                newPermiso.Nombre = txtNombre.Text;
+                newPermiso.Descripcion = txtDescripcion.Text;
+
+                if (permisoBLL.Alta(ref newPermiso))
+                {
+                    lblMensaje.Text = "Se genero la familia correctamente";
+                    lblMensaje.ForeColor = System.Drawing.Color.Blue;
+                    LlenarGrilla();
+                }
+                else
+                {                    
+                    throw new System.ArgumentException("Error al generar la familia.");
+                }
             }
-            else
+            catch (Exception ex)
             {
-                lblMensaje.Text = "Error al generar la familia";
-                lblMensaje.BackColor = System.Drawing.Color.Red;
+                lblMensaje.Text = ex.Message;
+                lblMensaje.ForeColor = System.Drawing.Color.Red;
             }
         }
 
@@ -192,6 +207,11 @@ namespace ShoeMarket
             }
             
             return permisosList;
+        }
+
+        protected void btnVolver_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Default.aspx", false);
         }
     }
 }

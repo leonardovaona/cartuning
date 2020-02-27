@@ -7,11 +7,22 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace ShoeMarket {
-    
-    
-    public partial class Bitacora {
-        
+namespace ShoeMarket
+{
+
+
+    public partial class Bitacora
+    {
+
+        /// <summary>
+        /// Control lblTituloBitacora.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblTituloBitacora;
+
         /// <summary>
         /// Control lblMensaje.
         /// </summary>
@@ -20,7 +31,7 @@ namespace ShoeMarket {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblMensaje;
-        
+
         /// <summary>
         /// Control MultiView1.
         /// </summary>
@@ -29,7 +40,7 @@ namespace ShoeMarket {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.MultiView MultiView1;
-        
+
         /// <summary>
         /// Control ViewBitacora.
         /// </summary>
@@ -38,7 +49,7 @@ namespace ShoeMarket {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.View ViewBitacora;
-        
+
         /// <summary>
         /// Control grillaBitacora.
         /// </summary>
@@ -47,7 +58,7 @@ namespace ShoeMarket {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView grillaBitacora;
-        
+
         /// <summary>
         /// Control btnVolver.
         /// </summary>

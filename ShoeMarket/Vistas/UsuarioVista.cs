@@ -62,7 +62,7 @@ namespace ShoeMarket.Vistas
             if (int.TryParse(id, out n))
                 return this.ObtenerPorId(Convert.ToInt32(n));
             else
-                this.Usuario = null/* TODO Change to default(_) if this is not a reference type */;
+                this.Usuario = null;
             return this.Usuario;
         }
 

@@ -18,11 +18,11 @@ public interface IUsuarioBLL : ICRUD<UsuarioBE>
     /// <summary>
     ///     ''' Agrega un permiso al perfil del usuario.
     ///     ''' </summary>
-    bool AgregarPermiso(BE.UsuarioBE usuario, BE.PermisoBE permiso);
+    bool AgregarPermiso(UsuarioBE usuario);
     /// <summary>
     ///     ''' Quita un permiso del perfil del usuario.
     ///     ''' </summary>
-    bool QuitarPermiso(BE.UsuarioBE usuario, BE.PermisoBE permiso);
+    bool QuitarPermiso(UsuarioBE usuario);
 }
 
 /// <summary>
@@ -36,19 +36,16 @@ public class UsuarioBLL : IUsuarioBLL
     /// <summary>
     ///     ''' objeto que se conectara al origen de datos para actualizarlo y consultarlo
     ///     ''' </summary>
-    private IUsuarioDAL _dal = null;
-    private IUsuarioPermisoDAL _dalPerfil = null;
+    private IUsuarioDAL _dal = null;    
 
     public UsuarioBLL(IUsuarioDAL DAO, IUsuarioPermisoDAL perfilDAL)
     {
-        this._dal = DAO;
-        this._dalPerfil = perfilDAL;
+        this._dal = DAO;        
     }
 
     public UsuarioBLL()
     {
         this._dal = new UsuarioDAL();
-        this._dalPerfil = new UsuarioPermisoDAL();
     }
 
     /// <summary>
@@ -154,12 +151,11 @@ public class UsuarioBLL : IUsuarioBLL
     /// <summary>
     ///     ''' Agrega un permiso al perfil del usuario.
     ///     ''' </summary>
-    public bool AgregarPermiso(BE.UsuarioBE usuario, BE.PermisoBE permiso)
+    public bool AgregarPermiso(UsuarioBE usuario)
     {
         try
-        {
-            this._dalPerfil.UsuarioActual = usuario;
-            return this._dalPerfil.Alta(ref permiso);
+        {            
+            return this._dal.AgregarPermiso(usuario);
         }
         catch (Exception ex)
         {
@@ -168,14 +164,13 @@ public class UsuarioBLL : IUsuarioBLL
     }
 
     /// <summary>
-    ///     ''' Quita un permiso del perfil del usuario.
+    ///     ''' Quita los permisos del perfil del usuario.
     ///     ''' </summary>
-    public bool QuitarPermiso(BE.UsuarioBE usuario, BE.PermisoBE permiso)
+    public bool QuitarPermiso(UsuarioBE usuario)
     {
         try
         {
-            this._dalPerfil.UsuarioActual = usuario;
-            return this._dalPerfil.Baja(ref permiso);
+            return this._dal.QuitarPermiso(usuario);
         }
         catch (Exception ex)
         {

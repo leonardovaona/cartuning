@@ -1,11 +1,9 @@
-C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\obj\Debug\CarTuning.csprojAssemblyReference.cache
-C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\obj\Debug\CarTuning.csproj.CoreCompileInputs.cache
-C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\obj\Debug\ShoeMarket.dll
-C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\obj\Debug\ShoeMarket.pdb
 C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\ApplicationInsights.config
 C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\roslyn\csc.exe
 C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
 C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
 C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\roslyn\Microsoft.CSharp.Core.targets
 C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\roslyn\Microsoft.VisualBasic.Core.targets
 C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\roslyn\System.Collections.Immutable.dll
@@ -27,8 +25,6 @@ C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\M
 C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\Microsoft.ApplicationInsights.dll
 C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\DAL.dll
-C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\System.Net.Http.Formatting.dll
-C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\Newtonsoft.Json.dll
 C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\BE.pdb
 C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\BLL.pdb
 C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\Microsoft.AI.DependencyCollector.xml
@@ -37,11 +33,8 @@ C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\M
 C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\Microsoft.ApplicationInsights.xml
 C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\System.Web.Http.xml
 C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\DAL.pdb
-C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\System.Net.Http.Formatting.xml
-C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\es\System.Web.Http.resources.dll
-C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\obj\Debug\CarTuning.csprojAssemblyReference.cache
 C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\obj\Debug\CarTuning.csproj.CopyComplete
-C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\obj\Debug\ShoeMarket.dll
+C:\Users\Leitho\Documents\UAI\SAP\Tecnologia\Proyecto\CarTuning\ShoeMarket\obj\Debug\ShoeMarket.pdb

@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.VisualBasic;
 using BE;
-
+using BLL;
 
 /*public interface IAutenticador
 {
@@ -84,7 +84,6 @@ public class Autenticador
                         usuarioIntentoActual.Bloqueado = 1;
                         this._UsuarioBLL.Modificacion(ref usuarioIntentoActual);
                     }
-
                     usuarioIntentoActual = null;
                 }
             }
@@ -104,7 +103,23 @@ public class Autenticador
                     contiene = true;
                     break;
                 }
-             }
+                PermisoBLL permisoBLL = new PermisoBLL();
+                PermisoBE permiso = new PermisoBE();
+                permiso.Id = perm.Id;
+                permiso = permisoBLL.Consulta(ref permiso);
+                FamiliaBE familia = new FamiliaBE(permiso);
+                familia.Permisos = permisoBLL.ConsultaPermisos(familia);
+
+                foreach (var permisoHijo in familia.Permisos)
+                {
+                    if (permisoHijo.Id.Equals(id))
+                    {
+                        contiene = true;
+                        break;
+                    }
+                }
+            }
+
         }
         return contiene;
     }

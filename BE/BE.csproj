@@ -43,15 +43,23 @@
     <Compile Include="BackupRestoreBE.cs" />
     <Compile Include="BitacoraBE.cs" />
     <Compile Include="DetalleIdiomaBE.cs" />
+    <Compile Include="DetallePedidoBE.cs" />
     <Compile Include="DigitoVerificador.cs" />
     <Compile Include="FamiliaBE.cs" />
     <Compile Include="ICRUD.cs" />
     <Compile Include="IdiomaBE.cs" />
     <Compile Include="IVerificable.cs" />
+    <Compile Include="MaterialBE.cs" />
+    <Compile Include="PagoBE.cs" />
+    <Compile Include="ParteProductoBE.cs" />
+    <Compile Include="PedidoBE.cs" />
     <Compile Include="PermisoBE.cs" />
     <Compile Include="PermisoCompuestoBE.cs" />
     <Compile Include="PermisoSimpleBE.cs" />
+    <Compile Include="ProductoBE.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TipoProductoBE.cs" />
+    <Compile Include="TurnoBE.cs" />
     <Compile Include="UsuarioBE.cs" />
     <Compile Include="VerificadorBE.cs" />
   </ItemGroup>

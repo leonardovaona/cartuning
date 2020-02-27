@@ -4,6 +4,9 @@ using ShoeMarket.Vistas;
 using System.Web.UI;
 using BE;
 using BLL;
+using System.Web;
+using System.Linq;
+using System.Web.UI.WebControls;
 
 namespace ShoeMarket
 {
@@ -18,14 +21,14 @@ namespace ShoeMarket
         protected void Page_Load(object sender, System.EventArgs e)
         {
             try
-            {
+            {                
                 // Valido si el usuario posee permiso para acceder a esta página.
                 AutenticacionVista autenticacionVista = new AutenticacionVista();
                 var usuarioActual = autenticacionVista.UsuarioActual;
-                if (!autenticacionVista.UsuarioPoseePermiso(usuarioActual, 5))
+                if (!autenticacionVista.UsuarioPoseePermiso(usuarioActual, 18))
                     // Si no lo tiene se redirecciona a página de inicio.
                     this.Response.Redirect("~/Default.aspx");
-
+                CargarIdiomaUsuario(usuarioActual.idioma);
                 lblMensaje.Text = string.Empty;
                 if (!IsPostBack)
                     this.llenarGrilla();
@@ -35,6 +38,36 @@ namespace ShoeMarket
                 lblMensaje.Text = ErrorHandler.ObtenerMensajeDeError(ex);
                 lblMensaje.ForeColor = System.Drawing.Color.Red;
             }
+        }
+        protected void CargarIdiomaUsuario(int id)
+        {
+            IdiomaBLL idiomaBLL = new IdiomaBLL();
+            IdiomaBE idioma = new IdiomaBE();
+
+            idioma = (IdiomaBE)HttpContext.Current.Application["idioma" + id];
+
+            // botones
+            btnRealizarBackup.Text = idioma.Detalle.Where(a => a.Control == "btnRealizarBackup").First().Palabra;
+            btnRealizarRestore.Text = idioma.Detalle.Where(a => a.Control == "btnRealizarRestore").First().Palabra;
+            
+            //Master Page            
+            MasterPage masterPage = new MasterPage();
+            masterPage = this.Master;
+            Label lblLogin = new Label();
+            lblLogin = masterPage.FindControl("lblLogin") as Label;
+            lblLogin.Text = idioma.Detalle.Where(a => a.Control == "HeadLoginStatus").First().Palabra;
+            Label lblRegistrarse = new Label();
+            lblRegistrarse = masterPage.FindControl("lblRegistrarse") as Label;
+            lblRegistrarse.Text = idioma.Detalle.Where(a => a.Control == "HeadCrearUsuario").First().Palabra;
+
+            // label            
+            lblBackupTitle.Text = idioma.Detalle.Where(a => a.Control == "lblBackupTitle").First().Palabra;
+            lblBackupName.Text = idioma.Detalle.Where(a => a.Control == "lblBackupName").First().Palabra;
+            lblBackupRuta.Text = idioma.Detalle.Where(a => a.Control == "lblBackupRuta").First().Palabra;
+            lblFragmentos.Text = idioma.Detalle.Where(a => a.Control == "lblFragmentos").First().Palabra;           
+            lblRestoreTitle.Text = idioma.Detalle.Where(a => a.Control == "lblRestoreTitle").First().Palabra;
+            lblBackupList.Text = idioma.Detalle.Where(a => a.Control == "lblBackupList").First().Palabra;
+            lblGrupoBackup.Text = idioma.Detalle.Where(a => a.Control == "lblGrupoBackup").First().Palabra;
         }
 
         private void llenarGrilla()

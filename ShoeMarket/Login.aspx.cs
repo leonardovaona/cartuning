@@ -97,11 +97,19 @@ namespace ShoeMarket
                     {
                         AutenticacionVista autenticacionVista = new AutenticacionVista();
                         var usuarioActual = autenticacionVista.UsuarioActual;
-                        if (autenticacionVista.UsuarioPoseePermiso(usuarioActual, 5))
+
+                        if (autenticacionVista.UsuarioPoseePermiso(usuarioActual, 19))
                             this.Response.Redirect("~/IntegridadBD.aspx", false);
+                        else
+                            this.Response.Redirect("~/Default.aspx", false);
                     }
                     else
+                    {
+                        AutenticacionVista autenticacionVista = new AutenticacionVista();
+                        var usuarioActual = autenticacionVista.UsuarioActual;
+                        CargarPedido(usuarioActual);
                         this.Response.Redirect("~/Default.aspx", false);
+                    }
                 }
                 else
                 {
@@ -125,6 +133,18 @@ namespace ShoeMarket
             {
                 lblMensaje.Text = ErrorHandler.ObtenerMensajeDeError(ex);
                 lblMensaje.ForeColor = System.Drawing.Color.Red;
+            }
+        }
+
+        protected void CargarPedido(UsuarioBE usuario)
+        {
+            PedidoBLL pedidoBLL = new PedidoBLL();
+            PedidoBE pedido = new PedidoBE();
+            pedido = pedidoBLL.getPedidoPorUsuario(usuario.Id, "PENDIENTE");
+
+            if (pedido != null)
+            { 
+                 HttpContext.Current.Session["Pedido" + pedido.Id] = pedido;
             }
         }
 

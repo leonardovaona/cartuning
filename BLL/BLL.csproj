@@ -47,7 +47,11 @@
     <Compile Include="IdiomaBLL.cs" />
     <Compile Include="IntegridadBLL.cs" />
     <Compile Include="FamiliaBLL.cs" />
+    <Compile Include="PagoBLL.cs" />
+    <Compile Include="PedidoBLL.cs" />
     <Compile Include="PermisoBLL.cs" />
+    <Compile Include="ProductoBLL.cs" />
+    <Compile Include="TurnoBLL.cs" />
     <Compile Include="UsuarioBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

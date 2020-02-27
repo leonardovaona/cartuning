@@ -75,8 +75,7 @@ public class PermisoDAL
     public BE.PermisoBE Consulta(int id)
     {
         PermisoBE permisoFiltro = new PermisoBE();
-        permisoFiltro.Id = id;
-        permisoFiltro.EsPadre = 0;
+        permisoFiltro.Id = id;        
         List<PermisoBE> lista = this.ConsultaRango(permisoFiltro, permisoFiltro);
         if (lista != null && lista.Count > 0)
             //List<PermisoBE> permisoList = ConsultarHijos(lista[0].Id);
@@ -98,7 +97,7 @@ public class PermisoDAL
     {
         List<BE.PermisoBE> lista = new List<BE.PermisoBE>();
 
-        IDbCommand comando = this.Wrapper.CrearComando("SELECT * FROM permiso WHERE (nombre=@nombre OR @nombre IS NULL) AND (id=@id OR @id IS NULL) AND (espadre = @espadre OR @espadre IS NULL) ORDER BY Nombre ", CommandType.Text);
+        IDbCommand comando = this.Wrapper.CrearComando("SELECT * FROM permiso WHERE (nombre=@nombre OR @nombre IS NULL) AND (id=@id OR @id IS NULL) ORDER BY Nombre ", CommandType.Text);
         try
         {
             if (filtroDesde != null && filtroDesde.Id > 0)
@@ -113,11 +112,6 @@ public class PermisoDAL
                 this.Wrapper.AgregarParametro(comando, "@descripcion", filtroDesde.Descripcion);
             else
                 this.Wrapper.AgregarParametro(comando, "@descripcion", DBNull.Value);            
-            if (filtroDesde != null && filtroDesde.EsPadre > 0)
-                this.Wrapper.AgregarParametro(comando, "@espadre", filtroDesde.EsPadre);
-            else
-                this.Wrapper.AgregarParametro(comando, "@espadre", DBNull.Value);
-
             using (IDataReader reader = this.Wrapper.ConsultarReader(comando))
             {
                 while (reader.Read())
@@ -140,7 +134,7 @@ public class PermisoDAL
     {
         List<BE.PermisoBE> lista = new List<PermisoBE>();
 
-        IDbCommand comando = this.Wrapper.CrearComando("SELECT * FROM permiso WHERE(nombre = @nombre OR @nombre IS NULL) AND(id = @id OR @id IS NULL) AND espadre = 1 ORDER BY Nombre ", CommandType.Text);
+        IDbCommand comando = this.Wrapper.CrearComando("SELECT * FROM permiso WHERE(nombre = @nombre OR @nombre IS NULL) AND(id = @id OR @id IS NULL) ORDER BY Nombre ", CommandType.Text);
         try
         {
             if (filtroDesde != null && filtroDesde.Id > 0)
@@ -241,7 +235,7 @@ public class PermisoDAL
         {
             this.Wrapper.CerrarConexion(comando);
         }
-        return (resultado > 0);
+        return true;
     }
 
     public bool AgregarPermisos(FamiliaBE familia)

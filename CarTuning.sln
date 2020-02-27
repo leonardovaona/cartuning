@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.757
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29318.209
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoeMarket", "ShoeMarket\ShoeMarket.csproj", "{6AA1FB01-3D6B-457D-8B74-658F02C16A9D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarTuning", "ShoeMarket\CarTuning.csproj", "{6AA1FB01-3D6B-457D-8B74-658F02C16A9D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BE", "BE\BE.csproj", "{F85B4528-03CA-4792-B924-3362E58DD7C4}"
 EndProject

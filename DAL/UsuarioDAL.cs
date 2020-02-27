@@ -17,6 +17,8 @@ using BE;
 public interface IUsuarioDAL : IMapeador<UsuarioBE>, IVerificador<UsuarioBE>
 {
     bool BloquearCuenta(ref UsuarioBE value);
+    bool AgregarPermiso(UsuarioBE usuario);
+    bool QuitarPermiso(UsuarioBE usuario);
     
 }
 
@@ -241,6 +243,35 @@ public class UsuarioDAL : IUsuarioDAL
         return (resultado > 0);
     }
 
+    public List<PermisoBE> GerPermisosByUsuarioId(int id)
+    {
+        PermisoConversor permisoConversor = new PermisoConversor();
+
+        List<PermisoBE> permisos = new List<PermisoBE>();
+
+        IDbCommand comando = this.Wrapper.CrearComando("SELECT p.* FROM usuariopermiso up, permiso p WHERE up.id_permiso = p.id AND id_usuario = @idusuario", CommandType.Text);
+        try
+        {
+            this.Wrapper.AgregarParametro(comando, "@idusuario", id);
+
+            using (IDataReader reader = this.Wrapper.ConsultarReader(comando))
+            {
+
+                while (reader.Read())
+                    permisos.Add(permisoConversor.Convertir(reader));
+            }
+        }
+        catch
+        {
+            throw;
+        }
+        finally
+        {
+            this.Wrapper.CerrarConexion(comando);
+        }
+        return permisos;
+    }
+
     public IConversor<BE.UsuarioBE> Conversor
     {
         get
@@ -348,6 +379,64 @@ public class UsuarioDAL : IUsuarioDAL
             this.Wrapper.CerrarConexion(comando);
         }
         return lista;
+    }
+
+    public bool AltaUsuarioPermiso(int idusuario, int idPermiso)
+    {
+        int resultado = 0;
+        IDbCommand comando = this.Wrapper.CrearComando("INSERT INTO usuariopermiso values (@idusuario, @idpermiso) ", CommandType.Text);
+        try
+        {
+            this.Wrapper.AgregarParametro(comando, "@idusuario", idusuario);
+            this.Wrapper.AgregarParametro(comando, "@idpermiso", idPermiso);
+
+            resultado = this._wrapper.EjecutarConsulta(comando);
+        }
+        catch
+        {
+            throw;
+        }
+        finally
+        {
+            this.Wrapper.CerrarConexion(comando);
+        }
+        return (resultado > 0);
+    }
+
+    public bool BajaPermiso(int idUsuario)
+    {
+        int resultado = 0;
+        IDbCommand comando = this.Wrapper.CrearComando("DELETE usuariopermiso WHERE id_usuario = @idusuario", CommandType.Text);
+        try
+        {
+            this.Wrapper.AgregarParametro(comando, "@idusuario", idUsuario);
+
+            resultado = this._wrapper.EjecutarConsulta(comando);
+        }
+        catch
+        {
+            throw;
+        }
+        finally
+        {
+            this.Wrapper.CerrarConexion(comando);
+        }
+        return (resultado > 0);
+    }
+
+    public bool AgregarPermiso(UsuarioBE usuario)
+    {
+        foreach (PermisoBE permisoBE in usuario.Perfil)
+        {
+            if (!AltaUsuarioPermiso(usuario.Id, permisoBE.Id))
+                return false;
+        }
+        return true;
+    }
+
+    public bool QuitarPermiso(UsuarioBE usuario)
+    {
+        return BajaPermiso(usuario.Id);
     }
 
     int IVerificador<UsuarioBE>.CalcularDVH(ref UsuarioBE value)

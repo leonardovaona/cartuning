@@ -2,45 +2,63 @@
 
 <!DOCTYPE html>
 <head runat="server">
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8" />
     <title></title>
-    <link href="~/css/normalize.css" rel="stylesheet" type="text/css" />
-    <link href="~/css/estilos.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+           
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
     <asp:ContentPlaceHolder ID="HeadContent" runat="server"></asp:ContentPlaceHolder>
 </head>
 
 <body>
     <form runat="server">
-        <header style="background-color: lightblue;">
-            
-            <ul class="contact-data">
-                <li><strong>Telefono: </strong>15-4097-1234</li>
-                <li><strong>Consultas: </strong>ventas@cartuning.com</li>
-            </ul>
-            <div id="divIdioma" runat="server">
-                <asp:DropDownList ID="ddlIdioma" runat="server">
+        <header style="background-color: black">
+            <div class="row">
+                <div class="col-sm-1">
+                </div>
+                <div class="col-sm-3">
+                    <ul class="nav navbar-nav">
+                        <li class="label label-default">Telefono: 15-4097-1234</li>
+                        <br />
+                        <li class="label label-default">Consultas:ventas@cartuning.com</li>
+                    </ul>
+                </div>
+                <div id="divIdioma" class="col-sm-6">
+                    <asp:DropDownList ID="ddlIdioma" runat="server">
+                    </asp:DropDownList>
+                </div>
+                <div class="col-sm-2">
+                    
+                    <a href="~/Login.aspx" id="HeadLoginStatus" runat="server" class="label label-success">
+                        <asp:Label ID="lblLogin" runat="server" Text="Iniciar Sesion"></asp:Label>
+                    </a>
+                    <a href="~/CrearUsuario.aspx" id="HeadCrearUsuario" runat="server" class="label label-success">
+                        <asp:Label ID="lblRegistrarse" runat="server" Text="Registrarse"></asp:Label>
+                    </a>
+                </div>
 
-                </asp:DropDownList>
+                <div class="clear"></div>
             </div>
-            <div class="user-login">
-                <a href="~/Login.aspx" ID="HeadLoginStatus" runat="server">Iniciar sesión</a>
-                <a href="~/CrearUsuario.aspx" id="HeadCrearUsuario" runat ="server">Registrarse</a>
-            </div>
-
-            <div class="clear"></div>
         </header>
 
-        <div class="clear menu-container">
-            <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
-                <Items>
-<%--                    <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Inicio"/>
-                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="Nosotros"/>--%>
-                </Items>
-            </asp:Menu>
-        </div>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">CarTuning</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Inicio</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+        </nav>
 
         <div class="main">
-            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
             <div class="clear"></div>
         </div>
     </form>

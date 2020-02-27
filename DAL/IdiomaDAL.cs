@@ -29,16 +29,17 @@ namespace DAL
 
                     resultado = this.Wrapper.EjecutarConsulta(comando);
 
-                    // asignar el Id devuelto por la consulta al objeto
-                    if ((resultado > 0))
-                    {
-                        value.Id = System.Convert.ToInt32(paramRet.Value);
+                // asignar el Id devuelto por la consulta al objeto
+                if ((resultado > 0))
+                {
+                    value.Id = System.Convert.ToInt32(paramRet.Value);
+                    AltaDetalle(value);
 
                         // Calculo el nuevo digito horizontal
                         //value.DVH  = CalcularDVH(ref value);
                         //Modificacion(ref value);
                         //VerificadorDAL.ActualizarDVV("BITACORA", "id");
-                    }
+                }
                 }
                 catch (Exception ex)
                 {
@@ -51,7 +52,47 @@ namespace DAL
                 // este metodo retornará true si hubo registros afectados en el origen de datos
                 return (resultado > 0);
             }
-        
+
+        private void AltaDetalle(IdiomaBE value)
+        {
+            int resultado = 0;
+            foreach (var detalle in value.Detalle)
+            {            
+            IDbCommand comando = this.Wrapper.CrearComando("INSERT INTO detalleidioma (id_idioma, palabra, control) VALUES(@ididioma, @palabra, @control)  SET @identity=@@Identity ", CommandType.Text);
+            try
+            {
+                this.Wrapper.AgregarParametro(comando, "@ididioma", value.Id);
+                this.Wrapper.AgregarParametro(comando, "@palabra", detalle.Palabra);
+                    this.Wrapper.AgregarParametro(comando, "@control", detalle.Control);
+
+                    IDataParameter paramRet = this.Wrapper.AgregarParametro(comando, "@identity", 0, DbType.Int32, ParameterDirection.Output);
+
+                resultado = this.Wrapper.EjecutarConsulta(comando);
+
+                // asignar el Id devuelto por la consulta al objeto
+                if ((resultado > 0))
+                {
+                        detalle.Id = System.Convert.ToInt32(paramRet.Value);
+
+                    // Calculo el nuevo digito horizontal
+                    //value.DVH  = CalcularDVH(ref value);
+                    //Modificacion(ref value);
+                    //VerificadorDAL.ActualizarDVV("BITACORA", "id");
+                }
+            }
+                 
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                this.Wrapper.CerrarConexion(comando);
+            }
+            }
+        }
+
+    
             public IdiomaBE Consulta(IdiomaBE filtro)
             {
                 List<IdiomaBE> lista = this.ConsultaRango(filtro, null);

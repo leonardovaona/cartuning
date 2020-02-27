@@ -12,14 +12,24 @@ namespace ShoeMarket
     public partial class Site : System.Web.UI.MasterPage
     {
         public bool DBCorrupted = false;
+                    
         protected void Page_Load(object sender, System.EventArgs e)
         {
+            if (Session["UsuarioActual"] != null)
+            {
+                var usuarioActual = Session["UsuarioActual"] as UsuarioBE;
+                HeadLoginStatus.InnerText = usuarioActual.Username;
+            }
+            else
+            {
+                HeadLoginStatus.InnerText = "Iniciar Sesion";
+            }
+
             if (!IsPostBack)
             {
                 UpdateLogin();
                 CargarIdioma();
             }
-
         }
         public void UpdateLogin()
         {

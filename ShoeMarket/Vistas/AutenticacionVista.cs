@@ -87,7 +87,7 @@ public class AutenticacionVista
     public void CerrarSesion()
     {
         // limpiar al sesion
-        HttpContext.Current.Session.Clear();
+        HttpContext.Current.Session.Clear();        
     }
 
     /// <summary>
@@ -111,14 +111,10 @@ public class AutenticacionVista
     ///     ''' </summary>
     public bool UsuarioPoseePermiso(UsuarioBE usuarioActual, int id)
     {
-        /*bool contiene = false;
+        bool contiene = false;
         if (usuarioActual != null)
             contiene = this._autenticador.ValidarPermiso(id, usuarioActual.Perfil);
-        return contiene;*/
-        if (id ==5)
-            return true;
-        else
-            return false;
+        return contiene;       
     }
 
     public void BloquearUsuario(UsuarioBE UsuarioActual)

@@ -15,7 +15,7 @@ using BE;
 
 public class UsuarioConversor : IConversor<BE.UsuarioBE>
 {
-    private UsuarioPermisoDAL _usuPermisoDAL = new UsuarioPermisoDAL();
+    private UsuarioDAL usuarioDAL = new UsuarioDAL();
 
     public BE.UsuarioBE Convertir(DataRow row)
     {
@@ -32,8 +32,7 @@ public class UsuarioConversor : IConversor<BE.UsuarioBE>
         usuario.Eliminado = Convert.ToInt16(row["Eliminado"]);
         usuario.DVH = Convert.ToInt32(row["DVH"]);
         // obtener el perfil del usuario
-        //this._usuPermisoDAL.UsuarioActual = usuario;
-        //usuario.Perfil = this._usuPermisoDAL.ConsultaRango(null/* TODO Change to default(_) if this is not a reference type */, null/* TODO Change to default(_) if this is not a reference type */);
+        usuario.Perfil = usuarioDAL.GerPermisosByUsuarioId(usuario.Id);
 
         return usuario;
     }
@@ -53,8 +52,7 @@ public class UsuarioConversor : IConversor<BE.UsuarioBE>
         usuario.Eliminado = Convert.ToInt16(reader["Eliminado"]);
         usuario.DVH = Convert.ToInt32(reader["DVH"]);
         // obtener el perfil del usuario
-        //this._usuPermisoDAL.UsuarioActual = usuario;
-        //usuario.Perfil = this._usuPermisoDAL.ConsultaRango(null, null);
+        usuario.Perfil = usuarioDAL.GerPermisosByUsuarioId(usuario.Id);
 
         return usuario;
     }
